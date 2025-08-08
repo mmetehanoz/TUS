@@ -5,14 +5,13 @@
 <header class="topbar"><h1>TUS Random</h1><nav>
 <button id="mode-quiz" class="tab active">Quiz</button>
 <button id="mode-info" class="tab">Bilgi Kartı</button>
-<a class="gh" id="gh-link" href="#" target="_blank" rel="noopener">GitHub</a>
 </nav></header>
 <main class="container">
 <section class="controls">
 <label>Kullanıcı: <b id="current-user"></b></label><button id="switch-user">Değiştir</button>
-<span class="sep"></span><label>Kategoriler:</label><select id="category" multiple></select>
+<label>Kategoriler:</label><select id="category" multiple></select>
 <label><input type="checkbox" id="onlyWrong"> Sadece yanlışlarım</label><button id="btn-new">Rastgele Soru</button>
-<span class="grow"></span><label class="uploader">Veri Yükle (CSV/JSON)<input type="file" id="file-input" accept=".csv,.json" multiple></label>
+<label class="uploader">Veri Yükle (CSV/JSON)<input type="file" id="file-input" accept=".csv,.json" multiple></label>
 </section>
 <section id="quiz-card" class="card hidden"><div class="meta"><span id="q-id"></span><span id="q-cat"></span></div>
 <h2 id="q-text"></h2><ul id="choices" class="choices"></ul>
@@ -29,14 +28,4 @@
 <div><b>Streak</b><span id="st-streak">0</span></div></div>
 <details><summary>Kategori Bazlı</summary><ul id="st-cats"></ul></details>
 <button id="reset-stats" class="danger">İstatistikleri Sıfırla</button></aside></main>
-<footer class="footer"><span>© 2025 TUS Random — MIT</span>
-<span>Veriler: <code>data/questions.json</code> veya import ile.</span></footer>
-<dialog id="user-modal"><form method="dialog" class="modal">
-<h3>Kullanıcı adı seç</h3><input id="username-input" placeholder="ör. metehan" required>
-<menu><button value="cancel">İptal</button><button id="user-save" value="default">Kaydet</button></menu>
-</form></dialog>
-<dialog id="pool-modal"><form method="dialog" class="modal">
-<h3>Havuz bitti</h3><p>Bu filtrelere göre görülmeyen soru kalmadı. Sıfırlansın mı?</p>
-<menu><button value="cancel">Hayır</button><button id="pool-reset" value="default">Evet, sıfırla</button></menu>
-</form></dialog>
 <script src="app.js"></script></body></html>

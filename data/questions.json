@@ -1,51 +1,3938 @@
 {
   "questions": [
     {
-      "id": "AN001",
-      "category": "Anatomi",
-      "prompt": "N. radialis lezyonunda beklenen bulgu nedir?",
-      "choice_a": "Ape hand",
-      "choice_b": "Claw hand",
-      "choice_c": "Wrist drop",
-      "choice_d": "Foot drop",
-      "correct": "C",
-      "explanation": "Ekstansör zaafına bağlı bilek düşmesi (wrist drop)."
-    },
-    {
       "id": "FA001",
       "category": "Farmakoloji",
-      "prompt": "ACE inhibitörlerinin tipik yan etkisi hangisidir?",
+      "prompt": "Metoprolol hangi ilaç sınıfına aittir?",
+      "choice_a": "Beta-bloker",
+      "choice_b": "Kalsiyum kanal blokeri",
+      "choice_c": "Sefalosporin",
+      "choice_d": "PPI",
+      "correct": "A",
+      "explanation": "Metoprolol, Beta-bloker sınıfındandır."
+    },
+    {
+      "id": "FA002",
+      "category": "Farmakoloji",
+      "prompt": "Metoprolol için en doğru etki mekanizması hangisi?",
+      "choice_a": "β-adrenerjik reseptör antagonizması",
+      "choice_b": "H+/K+ ATPaz inhibisyonu",
+      "choice_c": "AT1 reseptör blokajı",
+      "choice_d": "Na/Cl kotransporter inhibisyonu",
+      "correct": "A",
+      "explanation": "Temel mekanizma: β-adrenerjik reseptör antagonizması."
+    },
+    {
+      "id": "FA003",
+      "category": "Farmakoloji",
+      "prompt": "Metoprolol için tipik yan etki hangisidir?",
+      "choice_a": "Bradikardi",
+      "choice_b": "Hipokalemi",
+      "choice_c": "Ototoksisite",
+      "choice_d": "Hiperglisemi",
+      "correct": "A",
+      "explanation": "Sık yan etki: Bradikardi."
+    },
+    {
+      "id": "FA004",
+      "category": "Farmakoloji",
+      "prompt": "Atenolol hangi ilaç sınıfına aittir?",
+      "choice_a": "Beta-bloker",
+      "choice_b": "Aminoglikozid",
+      "choice_c": "Kinolon",
+      "choice_d": "Makrolid",
+      "correct": "A",
+      "explanation": "Atenolol, Beta-bloker sınıfındandır."
+    },
+    {
+      "id": "FA005",
+      "category": "Farmakoloji",
+      "prompt": "Atenolol için en doğru etki mekanizması hangisi?",
+      "choice_a": "β-adrenerjik reseptör antagonizması",
+      "choice_b": "H+/K+ ATPaz inhibisyonu",
+      "choice_c": "Na/K/2Cl kotransporter inhibisyonu",
+      "choice_d": "AT1 reseptör blokajı",
+      "correct": "A",
+      "explanation": "Temel mekanizma: β-adrenerjik reseptör antagonizması."
+    },
+    {
+      "id": "FA006",
+      "category": "Farmakoloji",
+      "prompt": "Atenolol için tipik yan etki hangisidir?",
+      "choice_a": "Bradikardi",
+      "choice_b": "Ototoksisite",
+      "choice_c": "Hiperkalemi",
+      "choice_d": "Nefrotoksisite",
+      "correct": "A",
+      "explanation": "Sık yan etki: Bradikardi."
+    },
+    {
+      "id": "FA007",
+      "category": "Farmakoloji",
+      "prompt": "Propranolol hangi ilaç sınıfına aittir?",
+      "choice_a": "Beta-bloker",
+      "choice_b": "Makrolid",
+      "choice_c": "Sefalosporin",
+      "choice_d": "PPI",
+      "correct": "A",
+      "explanation": "Propranolol, Beta-bloker sınıfındandır."
+    },
+    {
+      "id": "FA008",
+      "category": "Farmakoloji",
+      "prompt": "Propranolol için en doğru etki mekanizması hangisi?",
+      "choice_a": "β-adrenerjik reseptör antagonizması",
+      "choice_b": "H+/K+ ATPaz inhibisyonu",
+      "choice_c": "ACE inhibisyonu",
+      "choice_d": "30S bağlanması (protein sentezi inhibisyonu)",
+      "correct": "A",
+      "explanation": "Temel mekanizma: β-adrenerjik reseptör antagonizması."
+    },
+    {
+      "id": "FA009",
+      "category": "Farmakoloji",
+      "prompt": "Propranolol için tipik yan etki hangisidir?",
+      "choice_a": "Bradikardi",
+      "choice_b": "Ototoksisite",
+      "choice_c": "Kuru öksürük",
+      "choice_d": "Hipoglisemi",
+      "correct": "A",
+      "explanation": "Sık yan etki: Bradikardi."
+    },
+    {
+      "id": "FA010",
+      "category": "Farmakoloji",
+      "prompt": "Bisoprolol hangi ilaç sınıfına aittir?",
+      "choice_a": "Beta-bloker",
+      "choice_b": "PPI",
+      "choice_c": "Loop diüretik",
+      "choice_d": "Sefalosporin",
+      "correct": "A",
+      "explanation": "Bisoprolol, Beta-bloker sınıfındandır."
+    },
+    {
+      "id": "FA011",
+      "category": "Farmakoloji",
+      "prompt": "Bisoprolol için en doğru etki mekanizması hangisi?",
+      "choice_a": "β-adrenerjik reseptör antagonizması",
+      "choice_b": "AT1 reseptör blokajı",
+      "choice_c": "HMG-CoA redüktaz inhibisyonu",
+      "choice_d": "ACE inhibisyonu",
+      "correct": "A",
+      "explanation": "Temel mekanizma: β-adrenerjik reseptör antagonizması."
+    },
+    {
+      "id": "FA012",
+      "category": "Farmakoloji",
+      "prompt": "Bisoprolol için tipik yan etki hangisidir?",
+      "choice_a": "Bradikardi",
+      "choice_b": "Hiperkalemi",
+      "choice_c": "Akut böbrek hasarı",
+      "choice_d": "Kabızlık",
+      "correct": "A",
+      "explanation": "Sık yan etki: Bradikardi."
+    },
+    {
+      "id": "FA013",
+      "category": "Farmakoloji",
+      "prompt": "Enalapril hangi ilaç sınıfına aittir?",
+      "choice_a": "ACE inhibitörü",
+      "choice_b": "Penisilin",
+      "choice_c": "Beta-bloker",
+      "choice_d": "Makrolid",
+      "correct": "A",
+      "explanation": "Enalapril, ACE inhibitörü sınıfındandır."
+    },
+    {
+      "id": "FA014",
+      "category": "Farmakoloji",
+      "prompt": "Enalapril için en doğru etki mekanizması hangisi?",
+      "choice_a": "ACE inhibisyonu",
+      "choice_b": "DNA giraz/topoizomeraz II inhibisyonu",
+      "choice_c": "Na/K/2Cl kotransporter inhibisyonu",
+      "choice_d": "50S ribozomal alt ünite bağlanması",
+      "correct": "A",
+      "explanation": "Temel mekanizma: ACE inhibisyonu."
+    },
+    {
+      "id": "FA015",
+      "category": "Farmakoloji",
+      "prompt": "Enalapril için tipik yan etki hangisidir?",
+      "choice_a": "Kuru öksürük",
+      "choice_b": "Hipoglisemi",
+      "choice_c": "Hiperkalemi",
+      "choice_d": "Rabdomiyoliz",
+      "correct": "A",
+      "explanation": "Sık yan etki: Kuru öksürük."
+    },
+    {
+      "id": "FA016",
+      "category": "Farmakoloji",
+      "prompt": "Lisinopril hangi ilaç sınıfına aittir?",
+      "choice_a": "ACE inhibitörü",
+      "choice_b": "Loop diüretik",
+      "choice_c": "PPI",
+      "choice_d": "Aminoglikozid",
+      "correct": "A",
+      "explanation": "Lisinopril, ACE inhibitörü sınıfındandır."
+    },
+    {
+      "id": "FA017",
+      "category": "Farmakoloji",
+      "prompt": "Lisinopril için en doğru etki mekanizması hangisi?",
+      "choice_a": "ACE inhibisyonu",
+      "choice_b": "30S ribozomal alt ünite bağlanması",
+      "choice_c": "PBPs ile hücre duvar sentez inhibisyonu",
+      "choice_d": "Na/K/2Cl kotransporter inhibisyonu",
+      "correct": "A",
+      "explanation": "Temel mekanizma: ACE inhibisyonu."
+    },
+    {
+      "id": "FA018",
+      "category": "Farmakoloji",
+      "prompt": "Lisinopril için tipik yan etki hangisidir?",
+      "choice_a": "Kuru öksürük",
+      "choice_b": "Ödem",
+      "choice_c": "Taşikardi",
+      "choice_d": "Kabızlık",
+      "correct": "A",
+      "explanation": "Sık yan etki: Kuru öksürük."
+    },
+    {
+      "id": "FA019",
+      "category": "Farmakoloji",
+      "prompt": "Captopril hangi ilaç sınıfına aittir?",
+      "choice_a": "ACE inhibitörü",
+      "choice_b": "Loop diüretik",
+      "choice_c": "PPI",
+      "choice_d": "Aminoglikozid",
+      "correct": "A",
+      "explanation": "Captopril, ACE inhibitörü sınıfındandır."
+    },
+    {
+      "id": "FA020",
+      "category": "Farmakoloji",
+      "prompt": "Captopril için en doğru etki mekanizması hangisi?",
+      "choice_a": "ACE inhibisyonu",
+      "choice_b": "Na/Cl kotransporter inhibisyonu",
+      "choice_c": "β-adrenerjik reseptör antagonizması",
+      "choice_d": "50S ribozomal alt ünite bağlanması",
+      "correct": "A",
+      "explanation": "Temel mekanizma: ACE inhibisyonu."
+    },
+    {
+      "id": "FA021",
+      "category": "Farmakoloji",
+      "prompt": "Captopril için tipik yan etki hangisidir?",
+      "choice_a": "Kuru öksürük",
+      "choice_b": "Akut böbrek hasarı",
+      "choice_c": "Rabdomiyoliz",
+      "choice_d": "Kabızlık",
+      "correct": "A",
+      "explanation": "Sık yan etki: Kuru öksürük."
+    },
+    {
+      "id": "FA022",
+      "category": "Farmakoloji",
+      "prompt": "Ramipril hangi ilaç sınıfına aittir?",
+      "choice_a": "ACE inhibitörü",
+      "choice_b": "ARB",
+      "choice_c": "Kalsiyum kanal blokeri",
+      "choice_d": "Kinolon",
+      "correct": "A",
+      "explanation": "Ramipril, ACE inhibitörü sınıfındandır."
+    },
+    {
+      "id": "FA023",
+      "category": "Farmakoloji",
+      "prompt": "Ramipril için en doğru etki mekanizması hangisi?",
+      "choice_a": "ACE inhibisyonu",
+      "choice_b": "30S bağlanması (protein sentezi inhibisyonu)",
+      "choice_c": "COX-1/2 inhibisyonu",
+      "choice_d": "Na/Cl kotransporter inhibisyonu",
+      "correct": "A",
+      "explanation": "Temel mekanizma: ACE inhibisyonu."
+    },
+    {
+      "id": "FA024",
+      "category": "Farmakoloji",
+      "prompt": "Ramipril için tipik yan etki hangisidir?",
+      "choice_a": "Kuru öksürük",
+      "choice_b": "Hipokalemi",
+      "choice_c": "Hipoglisemi",
+      "choice_d": "Ödem",
+      "correct": "A",
+      "explanation": "Sık yan etki: Kuru öksürük."
+    },
+    {
+      "id": "FA025",
+      "category": "Farmakoloji",
+      "prompt": "Losartan hangi ilaç sınıfına aittir?",
+      "choice_a": "ARB",
+      "choice_b": "Opioid",
+      "choice_c": "Tetrasiklin",
+      "choice_d": "NSAID",
+      "correct": "A",
+      "explanation": "Losartan, ARB sınıfındandır."
+    },
+    {
+      "id": "FA026",
+      "category": "Farmakoloji",
+      "prompt": "Losartan için en doğru etki mekanizması hangisi?",
+      "choice_a": "AT1 reseptör blokajı",
+      "choice_b": "PBPs ile hücre duvar sentez inhibisyonu",
+      "choice_c": "50S ribozomal alt ünite bağlanması",
+      "choice_d": "μ-opioid reseptör agonizması",
+      "correct": "A",
+      "explanation": "Temel mekanizma: AT1 reseptör blokajı."
+    },
+    {
+      "id": "FA027",
+      "category": "Farmakoloji",
+      "prompt": "Losartan için tipik yan etki hangisidir?",
+      "choice_a": "Hiperkalemi",
+      "choice_b": "Akut böbrek hasarı",
+      "choice_c": "Kabızlık",
+      "choice_d": "Taşikardi",
+      "correct": "A",
+      "explanation": "Sık yan etki: Hiperkalemi."
+    },
+    {
+      "id": "FA028",
+      "category": "Farmakoloji",
+      "prompt": "Valsartan hangi ilaç sınıfına aittir?",
+      "choice_a": "ARB",
+      "choice_b": "Tiazid diüretik",
+      "choice_c": "Opioid",
+      "choice_d": "Sefalosporin",
+      "correct": "A",
+      "explanation": "Valsartan, ARB sınıfındandır."
+    },
+    {
+      "id": "FA029",
+      "category": "Farmakoloji",
+      "prompt": "Valsartan için en doğru etki mekanizması hangisi?",
+      "choice_a": "AT1 reseptör blokajı",
+      "choice_b": "μ-opioid reseptör agonizması",
+      "choice_c": "30S ribozomal alt ünite bağlanması",
+      "choice_d": "PBPs ile hücre duvar sentez inhibisyonu",
+      "correct": "A",
+      "explanation": "Temel mekanizma: AT1 reseptör blokajı."
+    },
+    {
+      "id": "FA030",
+      "category": "Farmakoloji",
+      "prompt": "Valsartan için tipik yan etki hangisidir?",
+      "choice_a": "Hiperkalemi",
+      "choice_b": "Nefrotoksisite",
+      "choice_c": "Kanama riski",
+      "choice_d": "Hiperkalemi",
+      "correct": "A",
+      "explanation": "Sık yan etki: Hiperkalemi."
+    },
+    {
+      "id": "FA031",
+      "category": "Farmakoloji",
+      "prompt": "Olmesartan hangi ilaç sınıfına aittir?",
+      "choice_a": "ARB",
+      "choice_b": "Aminoglikozid",
+      "choice_c": "Loop diüretik",
+      "choice_d": "Tetrasiklin",
+      "correct": "A",
+      "explanation": "Olmesartan, ARB sınıfındandır."
+    },
+    {
+      "id": "FA032",
+      "category": "Farmakoloji",
+      "prompt": "Olmesartan için en doğru etki mekanizması hangisi?",
+      "choice_a": "AT1 reseptör blokajı",
+      "choice_b": "H+/K+ ATPaz inhibisyonu",
+      "choice_c": "50S ribozomal alt ünite bağlanması",
+      "choice_d": "COX-1/2 inhibisyonu",
+      "correct": "A",
+      "explanation": "Temel mekanizma: AT1 reseptör blokajı."
+    },
+    {
+      "id": "FA033",
+      "category": "Farmakoloji",
+      "prompt": "Olmesartan için tipik yan etki hangisidir?",
+      "choice_a": "Hiperkalemi",
+      "choice_b": "Kabızlık",
+      "choice_c": "Bradikardi",
+      "choice_d": "Ödem",
+      "correct": "A",
+      "explanation": "Sık yan etki: Hiperkalemi."
+    },
+    {
+      "id": "FA034",
+      "category": "Farmakoloji",
+      "prompt": "Candesartan hangi ilaç sınıfına aittir?",
+      "choice_a": "ARB",
+      "choice_b": "Penisilin",
+      "choice_c": "Tetrasiklin",
+      "choice_d": "PPI",
+      "correct": "A",
+      "explanation": "Candesartan, ARB sınıfındandır."
+    },
+    {
+      "id": "FA035",
+      "category": "Farmakoloji",
+      "prompt": "Candesartan için en doğru etki mekanizması hangisi?",
+      "choice_a": "AT1 reseptör blokajı",
+      "choice_b": "DNA giraz/topoizomeraz II inhibisyonu",
+      "choice_c": "30S bağlanması (protein sentezi inhibisyonu)",
+      "choice_d": "HMG-CoA redüktaz inhibisyonu",
+      "correct": "A",
+      "explanation": "Temel mekanizma: AT1 reseptör blokajı."
+    },
+    {
+      "id": "FA036",
+      "category": "Farmakoloji",
+      "prompt": "Candesartan için tipik yan etki hangisidir?",
+      "choice_a": "Hiperkalemi",
+      "choice_b": "Hipokalemi",
+      "choice_c": "Ototoksisite",
+      "choice_d": "Kabızlık",
+      "correct": "A",
+      "explanation": "Sık yan etki: Hiperkalemi."
+    },
+    {
+      "id": "FA037",
+      "category": "Farmakoloji",
+      "prompt": "Amlodipin hangi ilaç sınıfına aittir?",
+      "choice_a": "Kalsiyum kanal blokeri",
+      "choice_b": "Penisilin",
+      "choice_c": "ACE inhibitörü",
+      "choice_d": "PPI",
+      "correct": "A",
+      "explanation": "Amlodipin, Kalsiyum kanal blokeri sınıfındandır."
+    },
+    {
+      "id": "FA038",
+      "category": "Farmakoloji",
+      "prompt": "Amlodipin için en doğru etki mekanizması hangisi?",
+      "choice_a": "L-tipi kalsiyum kanalı blokajı",
+      "choice_b": "AT1 reseptör blokajı",
+      "choice_c": "PBPs ile hücre duvar sentez inhibisyonu",
+      "choice_d": "50S ribozomal alt ünite bağlanması",
+      "correct": "A",
+      "explanation": "Temel mekanizma: L-tipi kalsiyum kanalı blokajı."
+    },
+    {
+      "id": "FA039",
+      "category": "Farmakoloji",
+      "prompt": "Amlodipin için tipik yan etki hangisidir?",
+      "choice_a": "Ödem",
+      "choice_b": "Ödem",
+      "choice_c": "Ototoksisite",
+      "choice_d": "Hipoglisemi",
+      "correct": "A",
+      "explanation": "Sık yan etki: Ödem."
+    },
+    {
+      "id": "FA040",
+      "category": "Farmakoloji",
+      "prompt": "Verapamil hangi ilaç sınıfına aittir?",
+      "choice_a": "Kalsiyum kanal blokeri",
+      "choice_b": "Beta-bloker",
+      "choice_c": "Aminoglikozid",
+      "choice_d": "Opioid",
+      "correct": "A",
+      "explanation": "Verapamil, Kalsiyum kanal blokeri sınıfındandır."
+    },
+    {
+      "id": "FA041",
+      "category": "Farmakoloji",
+      "prompt": "Verapamil için en doğru etki mekanizması hangisi?",
+      "choice_a": "L-tipi kalsiyum kanalı blokajı",
+      "choice_b": "Na/Cl kotransporter inhibisyonu",
+      "choice_c": "30S bağlanması (protein sentezi inhibisyonu)",
+      "choice_d": "Hücre duvar sentez inhibisyonu",
+      "correct": "A",
+      "explanation": "Temel mekanizma: L-tipi kalsiyum kanalı blokajı."
+    },
+    {
+      "id": "FA042",
+      "category": "Farmakoloji",
+      "prompt": "Verapamil için tipik yan etki hangisidir?",
+      "choice_a": "Ödem",
+      "choice_b": "Kanama riski",
+      "choice_c": "Akut böbrek hasarı",
+      "choice_d": "Nefrotoksisite",
+      "correct": "A",
+      "explanation": "Sık yan etki: Ödem."
+    },
+    {
+      "id": "FA043",
+      "category": "Farmakoloji",
+      "prompt": "Diltiazem hangi ilaç sınıfına aittir?",
+      "choice_a": "Kalsiyum kanal blokeri",
+      "choice_b": "Kinolon",
+      "choice_c": "ARB",
+      "choice_d": "NSAID",
+      "correct": "A",
+      "explanation": "Diltiazem, Kalsiyum kanal blokeri sınıfındandır."
+    },
+    {
+      "id": "FA044",
+      "category": "Farmakoloji",
+      "prompt": "Diltiazem için en doğru etki mekanizması hangisi?",
+      "choice_a": "L-tipi kalsiyum kanalı blokajı",
+      "choice_b": "PBPs ile hücre duvar sentez inhibisyonu",
+      "choice_c": "Na/K/2Cl kotransporter inhibisyonu",
+      "choice_d": "β-adrenerjik reseptör antagonizması",
+      "correct": "A",
+      "explanation": "Temel mekanizma: L-tipi kalsiyum kanalı blokajı."
+    },
+    {
+      "id": "FA045",
+      "category": "Farmakoloji",
+      "prompt": "Diltiazem için tipik yan etki hangisidir?",
+      "choice_a": "Ödem",
+      "choice_b": "Hiperglisemi",
+      "choice_c": "Taşikardi",
+      "choice_d": "Rabdomiyoliz",
+      "correct": "A",
+      "explanation": "Sık yan etki: Ödem."
+    },
+    {
+      "id": "FA046",
+      "category": "Farmakoloji",
+      "prompt": "Nifedipin hangi ilaç sınıfına aittir?",
+      "choice_a": "Kalsiyum kanal blokeri",
+      "choice_b": "Opioid",
+      "choice_c": "NSAID",
+      "choice_d": "Penisilin",
+      "correct": "A",
+      "explanation": "Nifedipin, Kalsiyum kanal blokeri sınıfındandır."
+    },
+    {
+      "id": "FA047",
+      "category": "Farmakoloji",
+      "prompt": "Nifedipin için en doğru etki mekanizması hangisi?",
+      "choice_a": "L-tipi kalsiyum kanalı blokajı",
+      "choice_b": "Na/K/2Cl kotransporter inhibisyonu",
+      "choice_c": "50S ribozomal alt ünite bağlanması",
+      "choice_d": "PBPs ile hücre duvar sentez inhibisyonu",
+      "correct": "A",
+      "explanation": "Temel mekanizma: L-tipi kalsiyum kanalı blokajı."
+    },
+    {
+      "id": "FA048",
+      "category": "Farmakoloji",
+      "prompt": "Nifedipin için tipik yan etki hangisidir?",
+      "choice_a": "Ödem",
+      "choice_b": "Ödem",
+      "choice_c": "Kanama riski",
+      "choice_d": "Akut böbrek hasarı",
+      "correct": "A",
+      "explanation": "Sık yan etki: Ödem."
+    },
+    {
+      "id": "FA049",
+      "category": "Farmakoloji",
+      "prompt": "Furosemid hangi ilaç sınıfına aittir?",
+      "choice_a": "Loop diüretik",
+      "choice_b": "Aminoglikozid",
+      "choice_c": "Tiazid diüretik",
+      "choice_d": "Kinolon",
+      "correct": "A",
+      "explanation": "Furosemid, Loop diüretik sınıfındandır."
+    },
+    {
+      "id": "FA050",
+      "category": "Farmakoloji",
+      "prompt": "Furosemid için en doğru etki mekanizması hangisi?",
+      "choice_a": "Na/K/2Cl kotransporter inhibisyonu",
+      "choice_b": "PBPs ile hücre duvar sentez inhibisyonu",
+      "choice_c": "Hücre duvar sentez inhibisyonu",
+      "choice_d": "30S bağlanması (protein sentezi inhibisyonu)",
+      "correct": "A",
+      "explanation": "Temel mekanizma: Na/K/2Cl kotransporter inhibisyonu."
+    },
+    {
+      "id": "FA051",
+      "category": "Farmakoloji",
+      "prompt": "Furosemid için tipik yan etki hangisidir?",
       "choice_a": "Hipokalemi",
+      "choice_b": "Hiperkalemi",
+      "choice_c": "Nefrotoksisite",
+      "choice_d": "Hipoglisemi",
+      "correct": "A",
+      "explanation": "Sık yan etki: Hipokalemi."
+    },
+    {
+      "id": "FA052",
+      "category": "Farmakoloji",
+      "prompt": "Bumetanid hangi ilaç sınıfına aittir?",
+      "choice_a": "Loop diüretik",
+      "choice_b": "Penisilin",
+      "choice_c": "PPI",
+      "choice_d": "ARB",
+      "correct": "A",
+      "explanation": "Bumetanid, Loop diüretik sınıfındandır."
+    },
+    {
+      "id": "FA053",
+      "category": "Farmakoloji",
+      "prompt": "Bumetanid için en doğru etki mekanizması hangisi?",
+      "choice_a": "Na/K/2Cl kotransporter inhibisyonu",
+      "choice_b": "PBPs ile hücre duvar sentez inhibisyonu",
+      "choice_c": "H+/K+ ATPaz inhibisyonu",
+      "choice_d": "μ-opioid reseptör agonizması",
+      "correct": "A",
+      "explanation": "Temel mekanizma: Na/K/2Cl kotransporter inhibisyonu."
+    },
+    {
+      "id": "FA054",
+      "category": "Farmakoloji",
+      "prompt": "Bumetanid için tipik yan etki hangisidir?",
+      "choice_a": "Hipokalemi",
+      "choice_b": "Taşikardi",
+      "choice_c": "Nefrotoksisite",
+      "choice_d": "Hiperkalemi",
+      "correct": "A",
+      "explanation": "Sık yan etki: Hipokalemi."
+    },
+    {
+      "id": "FA055",
+      "category": "Farmakoloji",
+      "prompt": "Torsemid hangi ilaç sınıfına aittir?",
+      "choice_a": "Loop diüretik",
+      "choice_b": "Aminoglikozid",
+      "choice_c": "NSAID",
+      "choice_d": "Statin",
+      "correct": "A",
+      "explanation": "Torsemid, Loop diüretik sınıfındandır."
+    },
+    {
+      "id": "FA056",
+      "category": "Farmakoloji",
+      "prompt": "Torsemid için en doğru etki mekanizması hangisi?",
+      "choice_a": "Na/K/2Cl kotransporter inhibisyonu",
+      "choice_b": "Hücre duvar sentez inhibisyonu",
+      "choice_c": "PBPs ile hücre duvar sentez inhibisyonu",
+      "choice_d": "L-tipi kalsiyum kanalı blokajı",
+      "correct": "A",
+      "explanation": "Temel mekanizma: Na/K/2Cl kotransporter inhibisyonu."
+    },
+    {
+      "id": "FA057",
+      "category": "Farmakoloji",
+      "prompt": "Torsemid için tipik yan etki hangisidir?",
+      "choice_a": "Hipokalemi",
+      "choice_b": "Rabdomiyoliz",
+      "choice_c": "Nefrotoksisite",
+      "choice_d": "Ototoksisite",
+      "correct": "A",
+      "explanation": "Sık yan etki: Hipokalemi."
+    },
+    {
+      "id": "FA058",
+      "category": "Farmakoloji",
+      "prompt": "Etakrinik asit hangi ilaç sınıfına aittir?",
+      "choice_a": "Loop diüretik",
+      "choice_b": "NSAID",
+      "choice_c": "Statin",
+      "choice_d": "Makrolid",
+      "correct": "A",
+      "explanation": "Etakrinik asit, Loop diüretik sınıfındandır."
+    },
+    {
+      "id": "FA059",
+      "category": "Farmakoloji",
+      "prompt": "Etakrinik asit için en doğru etki mekanizması hangisi?",
+      "choice_a": "Na/K/2Cl kotransporter inhibisyonu",
+      "choice_b": "HMG-CoA redüktaz inhibisyonu",
+      "choice_c": "β-adrenerjik reseptör antagonizması",
+      "choice_d": "PBPs ile hücre duvar sentez inhibisyonu",
+      "correct": "A",
+      "explanation": "Temel mekanizma: Na/K/2Cl kotransporter inhibisyonu."
+    },
+    {
+      "id": "FA060",
+      "category": "Farmakoloji",
+      "prompt": "Etakrinik asit için tipik yan etki hangisidir?",
+      "choice_a": "Hipokalemi",
+      "choice_b": "Rabdomiyoliz",
+      "choice_c": "Kanama riski",
+      "choice_d": "Hiperglisemi",
+      "correct": "A",
+      "explanation": "Sık yan etki: Hipokalemi."
+    },
+    {
+      "id": "FA061",
+      "category": "Farmakoloji",
+      "prompt": "Hidroklorotiyazid hangi ilaç sınıfına aittir?",
+      "choice_a": "Tiazid diüretik",
+      "choice_b": "Statin",
+      "choice_c": "Aminoglikozid",
+      "choice_d": "Sefalosporin",
+      "correct": "A",
+      "explanation": "Hidroklorotiyazid, Tiazid diüretik sınıfındandır."
+    },
+    {
+      "id": "FA062",
+      "category": "Farmakoloji",
+      "prompt": "Hidroklorotiyazid için en doğru etki mekanizması hangisi?",
+      "choice_a": "Na/Cl kotransporter inhibisyonu",
+      "choice_b": "β-adrenerjik reseptör antagonizması",
+      "choice_c": "H+/K+ ATPaz inhibisyonu",
+      "choice_d": "L-tipi kalsiyum kanalı blokajı",
+      "correct": "A",
+      "explanation": "Temel mekanizma: Na/Cl kotransporter inhibisyonu."
+    },
+    {
+      "id": "FA063",
+      "category": "Farmakoloji",
+      "prompt": "Hidroklorotiyazid için tipik yan etki hangisidir?",
+      "choice_a": "Hiponatremi",
+      "choice_b": "Kabızlık",
+      "choice_c": "Bradikardi",
+      "choice_d": "Rabdomiyoliz",
+      "correct": "A",
+      "explanation": "Sık yan etki: Hiponatremi."
+    },
+    {
+      "id": "FA064",
+      "category": "Farmakoloji",
+      "prompt": "Klorotalidon hangi ilaç sınıfına aittir?",
+      "choice_a": "Tiazid diüretik",
+      "choice_b": "Sefalosporin",
+      "choice_c": "ARB",
+      "choice_d": "ACE inhibitörü",
+      "correct": "A",
+      "explanation": "Klorotalidon, Tiazid diüretik sınıfındandır."
+    },
+    {
+      "id": "FA065",
+      "category": "Farmakoloji",
+      "prompt": "Klorotalidon için en doğru etki mekanizması hangisi?",
+      "choice_a": "Na/Cl kotransporter inhibisyonu",
+      "choice_b": "H+/K+ ATPaz inhibisyonu",
+      "choice_c": "PBPs ile hücre duvar sentez inhibisyonu",
+      "choice_d": "μ-opioid reseptör agonizması",
+      "correct": "A",
+      "explanation": "Temel mekanizma: Na/Cl kotransporter inhibisyonu."
+    },
+    {
+      "id": "FA066",
+      "category": "Farmakoloji",
+      "prompt": "Klorotalidon için tipik yan etki hangisidir?",
+      "choice_a": "Hiponatremi",
+      "choice_b": "Akut böbrek hasarı",
+      "choice_c": "Kuru öksürük",
+      "choice_d": "Hiperkalemi",
+      "correct": "A",
+      "explanation": "Sık yan etki: Hiponatremi."
+    },
+    {
+      "id": "FA067",
+      "category": "Farmakoloji",
+      "prompt": "Indapamid hangi ilaç sınıfına aittir?",
+      "choice_a": "Tiazid diüretik",
+      "choice_b": "NSAID",
+      "choice_c": "Kinolon",
+      "choice_d": "ACE inhibitörü",
+      "correct": "A",
+      "explanation": "Indapamid, Tiazid diüretik sınıfındandır."
+    },
+    {
+      "id": "FA068",
+      "category": "Farmakoloji",
+      "prompt": "Indapamid için en doğru etki mekanizması hangisi?",
+      "choice_a": "Na/Cl kotransporter inhibisyonu",
+      "choice_b": "ACE inhibisyonu",
+      "choice_c": "COX-1/2 inhibisyonu",
+      "choice_d": "β-adrenerjik reseptör antagonizması",
+      "correct": "A",
+      "explanation": "Temel mekanizma: Na/Cl kotransporter inhibisyonu."
+    },
+    {
+      "id": "FA069",
+      "category": "Farmakoloji",
+      "prompt": "Indapamid için tipik yan etki hangisidir?",
+      "choice_a": "Hiponatremi",
+      "choice_b": "Ototoksisite",
+      "choice_c": "Hiperkalemi",
+      "choice_d": "Kuru öksürük",
+      "correct": "A",
+      "explanation": "Sık yan etki: Hiponatremi."
+    },
+    {
+      "id": "FA070",
+      "category": "Farmakoloji",
+      "prompt": "Metolazon hangi ilaç sınıfına aittir?",
+      "choice_a": "Tiazid diüretik",
+      "choice_b": "Kalsiyum kanal blokeri",
+      "choice_c": "Loop diüretik",
+      "choice_d": "ACE inhibitörü",
+      "correct": "A",
+      "explanation": "Metolazon, Tiazid diüretik sınıfındandır."
+    },
+    {
+      "id": "FA071",
+      "category": "Farmakoloji",
+      "prompt": "Metolazon için en doğru etki mekanizması hangisi?",
+      "choice_a": "Na/Cl kotransporter inhibisyonu",
+      "choice_b": "H+/K+ ATPaz inhibisyonu",
+      "choice_c": "Hücre duvar sentez inhibisyonu",
+      "choice_d": "AT1 reseptör blokajı",
+      "correct": "A",
+      "explanation": "Temel mekanizma: Na/Cl kotransporter inhibisyonu."
+    },
+    {
+      "id": "FA072",
+      "category": "Farmakoloji",
+      "prompt": "Metolazon için tipik yan etki hangisidir?",
+      "choice_a": "Hiponatremi",
+      "choice_b": "Ödem",
+      "choice_c": "Kuru öksürük",
+      "choice_d": "Hipokalemi",
+      "correct": "A",
+      "explanation": "Sık yan etki: Hiponatremi."
+    },
+    {
+      "id": "FA073",
+      "category": "Farmakoloji",
+      "prompt": "Atorvastatin hangi ilaç sınıfına aittir?",
+      "choice_a": "Statin",
+      "choice_b": "ARB",
+      "choice_c": "Opioid",
+      "choice_d": "Loop diüretik",
+      "correct": "A",
+      "explanation": "Atorvastatin, Statin sınıfındandır."
+    },
+    {
+      "id": "FA074",
+      "category": "Farmakoloji",
+      "prompt": "Atorvastatin için en doğru etki mekanizması hangisi?",
+      "choice_a": "HMG-CoA redüktaz inhibisyonu",
+      "choice_b": "PBPs ile hücre duvar sentez inhibisyonu",
+      "choice_c": "AT1 reseptör blokajı",
+      "choice_d": "DNA giraz/topoizomeraz II inhibisyonu",
+      "correct": "A",
+      "explanation": "Temel mekanizma: HMG-CoA redüktaz inhibisyonu."
+    },
+    {
+      "id": "FA075",
+      "category": "Farmakoloji",
+      "prompt": "Atorvastatin için tipik yan etki hangisidir?",
+      "choice_a": "Miyalji/rabdomiyoliz",
+      "choice_b": "Kuru öksürük",
+      "choice_c": "Kabızlık",
+      "choice_d": "Hipoglisemi",
+      "correct": "A",
+      "explanation": "Sık yan etki: Miyalji/rabdomiyoliz."
+    },
+    {
+      "id": "FA076",
+      "category": "Farmakoloji",
+      "prompt": "Rosuvastatin hangi ilaç sınıfına aittir?",
+      "choice_a": "Statin",
+      "choice_b": "Loop diüretik",
+      "choice_c": "Aminoglikozid",
+      "choice_d": "Tetrasiklin",
+      "correct": "A",
+      "explanation": "Rosuvastatin, Statin sınıfındandır."
+    },
+    {
+      "id": "FA077",
+      "category": "Farmakoloji",
+      "prompt": "Rosuvastatin için en doğru etki mekanizması hangisi?",
+      "choice_a": "HMG-CoA redüktaz inhibisyonu",
+      "choice_b": "Na/Cl kotransporter inhibisyonu",
+      "choice_c": "30S ribozomal alt ünite bağlanması",
+      "choice_d": "COX-1/2 inhibisyonu",
+      "correct": "A",
+      "explanation": "Temel mekanizma: HMG-CoA redüktaz inhibisyonu."
+    },
+    {
+      "id": "FA078",
+      "category": "Farmakoloji",
+      "prompt": "Rosuvastatin için tipik yan etki hangisidir?",
+      "choice_a": "Miyalji/rabdomiyoliz",
+      "choice_b": "Hipokalemi",
+      "choice_c": "Hiperkalemi",
+      "choice_d": "Kuru öksürük",
+      "correct": "A",
+      "explanation": "Sık yan etki: Miyalji/rabdomiyoliz."
+    },
+    {
+      "id": "FA079",
+      "category": "Farmakoloji",
+      "prompt": "Simvastatin hangi ilaç sınıfına aittir?",
+      "choice_a": "Statin",
+      "choice_b": "Makrolid",
+      "choice_c": "Tiazid diüretik",
+      "choice_d": "Opioid",
+      "correct": "A",
+      "explanation": "Simvastatin, Statin sınıfındandır."
+    },
+    {
+      "id": "FA080",
+      "category": "Farmakoloji",
+      "prompt": "Simvastatin için en doğru etki mekanizması hangisi?",
+      "choice_a": "HMG-CoA redüktaz inhibisyonu",
+      "choice_b": "H+/K+ ATPaz inhibisyonu",
+      "choice_c": "L-tipi kalsiyum kanalı blokajı",
+      "choice_d": "Na/K/2Cl kotransporter inhibisyonu",
+      "correct": "A",
+      "explanation": "Temel mekanizma: HMG-CoA redüktaz inhibisyonu."
+    },
+    {
+      "id": "FA081",
+      "category": "Farmakoloji",
+      "prompt": "Simvastatin için tipik yan etki hangisidir?",
+      "choice_a": "Miyalji/rabdomiyoliz",
+      "choice_b": "Hipokalemi",
+      "choice_c": "Kuru öksürük",
+      "choice_d": "Hipoglisemi",
+      "correct": "A",
+      "explanation": "Sık yan etki: Miyalji/rabdomiyoliz."
+    },
+    {
+      "id": "FA082",
+      "category": "Farmakoloji",
+      "prompt": "Pravastatin hangi ilaç sınıfına aittir?",
+      "choice_a": "Statin",
+      "choice_b": "Penisilin",
+      "choice_c": "Kalsiyum kanal blokeri",
+      "choice_d": "Sefalosporin",
+      "correct": "A",
+      "explanation": "Pravastatin, Statin sınıfındandır."
+    },
+    {
+      "id": "FA083",
+      "category": "Farmakoloji",
+      "prompt": "Pravastatin için en doğru etki mekanizması hangisi?",
+      "choice_a": "HMG-CoA redüktaz inhibisyonu",
+      "choice_b": "50S ribozomal alt ünite bağlanması",
+      "choice_c": "COX-1/2 inhibisyonu",
+      "choice_d": "β-adrenerjik reseptör antagonizması",
+      "correct": "A",
+      "explanation": "Temel mekanizma: HMG-CoA redüktaz inhibisyonu."
+    },
+    {
+      "id": "FA084",
+      "category": "Farmakoloji",
+      "prompt": "Pravastatin için tipik yan etki hangisidir?",
+      "choice_a": "Miyalji/rabdomiyoliz",
+      "choice_b": "Taşikardi",
+      "choice_c": "Hiperkalemi",
+      "choice_d": "Nefrotoksisite",
+      "correct": "A",
+      "explanation": "Sık yan etki: Miyalji/rabdomiyoliz."
+    },
+    {
+      "id": "FA085",
+      "category": "Farmakoloji",
+      "prompt": "Azitromisin hangi ilaç sınıfına aittir?",
+      "choice_a": "Makrolid",
+      "choice_b": "ARB",
+      "choice_c": "Beta-bloker",
+      "choice_d": "Tetrasiklin",
+      "correct": "A",
+      "explanation": "Azitromisin, Makrolid sınıfındandır."
+    },
+    {
+      "id": "FA086",
+      "category": "Farmakoloji",
+      "prompt": "Azitromisin için en doğru etki mekanizması hangisi?",
+      "choice_a": "50S ribozomal alt ünite bağlanması",
+      "choice_b": "AT1 reseptör blokajı",
+      "choice_c": "30S ribozomal alt ünite bağlanması",
+      "choice_d": "30S bağlanması (protein sentezi inhibisyonu)",
+      "correct": "A",
+      "explanation": "Temel mekanizma: 50S ribozomal alt ünite bağlanması."
+    },
+    {
+      "id": "FA087",
+      "category": "Farmakoloji",
+      "prompt": "Azitromisin için tipik yan etki hangisidir?",
+      "choice_a": "QT uzaması",
+      "choice_b": "Rabdomiyoliz",
+      "choice_c": "Kabızlık",
+      "choice_d": "Nefrotoksisite",
+      "correct": "A",
+      "explanation": "Sık yan etki: QT uzaması."
+    },
+    {
+      "id": "FA088",
+      "category": "Farmakoloji",
+      "prompt": "Klaritromisin hangi ilaç sınıfına aittir?",
+      "choice_a": "Makrolid",
+      "choice_b": "Penisilin",
+      "choice_c": "NSAID",
+      "choice_d": "Kalsiyum kanal blokeri",
+      "correct": "A",
+      "explanation": "Klaritromisin, Makrolid sınıfındandır."
+    },
+    {
+      "id": "FA089",
+      "category": "Farmakoloji",
+      "prompt": "Klaritromisin için en doğru etki mekanizması hangisi?",
+      "choice_a": "50S ribozomal alt ünite bağlanması",
+      "choice_b": "DNA giraz/topoizomeraz II inhibisyonu",
+      "choice_c": "H+/K+ ATPaz inhibisyonu",
+      "choice_d": "30S bağlanması (protein sentezi inhibisyonu)",
+      "correct": "A",
+      "explanation": "Temel mekanizma: 50S ribozomal alt ünite bağlanması."
+    },
+    {
+      "id": "FA090",
+      "category": "Farmakoloji",
+      "prompt": "Klaritromisin için tipik yan etki hangisidir?",
+      "choice_a": "QT uzaması",
+      "choice_b": "Rabdomiyoliz",
+      "choice_c": "Ototoksisite",
+      "choice_d": "Taşikardi",
+      "correct": "A",
+      "explanation": "Sık yan etki: QT uzaması."
+    },
+    {
+      "id": "FA091",
+      "category": "Farmakoloji",
+      "prompt": "Eritromisin hangi ilaç sınıfına aittir?",
+      "choice_a": "Makrolid",
+      "choice_b": "Penisilin",
+      "choice_c": "Kinolon",
+      "choice_d": "Beta-bloker",
+      "correct": "A",
+      "explanation": "Eritromisin, Makrolid sınıfındandır."
+    },
+    {
+      "id": "FA092",
+      "category": "Farmakoloji",
+      "prompt": "Eritromisin için en doğru etki mekanizması hangisi?",
+      "choice_a": "50S ribozomal alt ünite bağlanması",
+      "choice_b": "HMG-CoA redüktaz inhibisyonu",
+      "choice_c": "DNA giraz/topoizomeraz II inhibisyonu",
+      "choice_d": "Hücre duvar sentez inhibisyonu",
+      "correct": "A",
+      "explanation": "Temel mekanizma: 50S ribozomal alt ünite bağlanması."
+    },
+    {
+      "id": "FA093",
+      "category": "Farmakoloji",
+      "prompt": "Eritromisin için tipik yan etki hangisidir?",
+      "choice_a": "QT uzaması",
+      "choice_b": "Hiperglisemi",
+      "choice_c": "Ödem",
+      "choice_d": "Kabızlık",
+      "correct": "A",
+      "explanation": "Sık yan etki: QT uzaması."
+    },
+    {
+      "id": "FA094",
+      "category": "Farmakoloji",
+      "prompt": "Roksitromisin hangi ilaç sınıfına aittir?",
+      "choice_a": "Makrolid",
+      "choice_b": "Kinolon",
+      "choice_c": "Statin",
+      "choice_d": "Beta-bloker",
+      "correct": "A",
+      "explanation": "Roksitromisin, Makrolid sınıfındandır."
+    },
+    {
+      "id": "FA095",
+      "category": "Farmakoloji",
+      "prompt": "Roksitromisin için en doğru etki mekanizması hangisi?",
+      "choice_a": "50S ribozomal alt ünite bağlanması",
+      "choice_b": "30S bağlanması (protein sentezi inhibisyonu)",
+      "choice_c": "Na/K/2Cl kotransporter inhibisyonu",
+      "choice_d": "AT1 reseptör blokajı",
+      "correct": "A",
+      "explanation": "Temel mekanizma: 50S ribozomal alt ünite bağlanması."
+    },
+    {
+      "id": "FA096",
+      "category": "Farmakoloji",
+      "prompt": "Roksitromisin için tipik yan etki hangisidir?",
+      "choice_a": "QT uzaması",
+      "choice_b": "Taşikardi",
+      "choice_c": "Hiperkalemi",
+      "choice_d": "Kuru öksürük",
+      "correct": "A",
+      "explanation": "Sık yan etki: QT uzaması."
+    },
+    {
+      "id": "FA097",
+      "category": "Farmakoloji",
+      "prompt": "Gentamisin hangi ilaç sınıfına aittir?",
+      "choice_a": "Aminoglikozid",
+      "choice_b": "ACE inhibitörü",
+      "choice_c": "NSAID",
+      "choice_d": "Opioid",
+      "correct": "A",
+      "explanation": "Gentamisin, Aminoglikozid sınıfındandır."
+    },
+    {
+      "id": "FA098",
+      "category": "Farmakoloji",
+      "prompt": "Gentamisin için en doğru etki mekanizması hangisi?",
+      "choice_a": "30S ribozomal alt ünite bağlanması",
+      "choice_b": "Na/K/2Cl kotransporter inhibisyonu",
+      "choice_c": "μ-opioid reseptör agonizması",
+      "choice_d": "30S bağlanması (protein sentezi inhibisyonu)",
+      "correct": "A",
+      "explanation": "Temel mekanizma: 30S ribozomal alt ünite bağlanması."
+    },
+    {
+      "id": "FA099",
+      "category": "Farmakoloji",
+      "prompt": "Gentamisin için tipik yan etki hangisidir?",
+      "choice_a": "Nefro/ototoksisite",
+      "choice_b": "Bradikardi",
+      "choice_c": "Nefrotoksisite",
+      "choice_d": "Kanama riski",
+      "correct": "A",
+      "explanation": "Sık yan etki: Nefro/ototoksisite."
+    },
+    {
+      "id": "FA100",
+      "category": "Farmakoloji",
+      "prompt": "Amikasin hangi ilaç sınıfına aittir?",
+      "choice_a": "Aminoglikozid",
+      "choice_b": "Loop diüretik",
+      "choice_c": "ARB",
+      "choice_d": "Beta-bloker",
+      "correct": "A",
+      "explanation": "Amikasin, Aminoglikozid sınıfındandır."
+    },
+    {
+      "id": "FA101",
+      "category": "Farmakoloji",
+      "prompt": "Amikasin için en doğru etki mekanizması hangisi?",
+      "choice_a": "30S ribozomal alt ünite bağlanması",
+      "choice_b": "PBPs ile hücre duvar sentez inhibisyonu",
+      "choice_c": "COX-1/2 inhibisyonu",
+      "choice_d": "β-adrenerjik reseptör antagonizması",
+      "correct": "A",
+      "explanation": "Temel mekanizma: 30S ribozomal alt ünite bağlanması."
+    },
+    {
+      "id": "FA102",
+      "category": "Farmakoloji",
+      "prompt": "Amikasin için tipik yan etki hangisidir?",
+      "choice_a": "Nefro/ototoksisite",
+      "choice_b": "Kanama riski",
+      "choice_c": "Taşikardi",
+      "choice_d": "Akut böbrek hasarı",
+      "correct": "A",
+      "explanation": "Sık yan etki: Nefro/ototoksisite."
+    },
+    {
+      "id": "FA103",
+      "category": "Farmakoloji",
+      "prompt": "Tobramisin hangi ilaç sınıfına aittir?",
+      "choice_a": "Aminoglikozid",
+      "choice_b": "Makrolid",
+      "choice_c": "ARB",
+      "choice_d": "PPI",
+      "correct": "A",
+      "explanation": "Tobramisin, Aminoglikozid sınıfındandır."
+    },
+    {
+      "id": "FA104",
+      "category": "Farmakoloji",
+      "prompt": "Tobramisin için en doğru etki mekanizması hangisi?",
+      "choice_a": "30S ribozomal alt ünite bağlanması",
+      "choice_b": "30S bağlanması (protein sentezi inhibisyonu)",
+      "choice_c": "Hücre duvar sentez inhibisyonu",
+      "choice_d": "PBPs ile hücre duvar sentez inhibisyonu",
+      "correct": "A",
+      "explanation": "Temel mekanizma: 30S ribozomal alt ünite bağlanması."
+    },
+    {
+      "id": "FA105",
+      "category": "Farmakoloji",
+      "prompt": "Tobramisin için tipik yan etki hangisidir?",
+      "choice_a": "Nefro/ototoksisite",
+      "choice_b": "Hiperkalemi",
+      "choice_c": "Nefrotoksisite",
+      "choice_d": "Taşikardi",
+      "correct": "A",
+      "explanation": "Sık yan etki: Nefro/ototoksisite."
+    },
+    {
+      "id": "FA106",
+      "category": "Farmakoloji",
+      "prompt": "Streptomisin hangi ilaç sınıfına aittir?",
+      "choice_a": "Aminoglikozid",
+      "choice_b": "Tiazid diüretik",
+      "choice_c": "ACE inhibitörü",
+      "choice_d": "Kalsiyum kanal blokeri",
+      "correct": "A",
+      "explanation": "Streptomisin, Aminoglikozid sınıfındandır."
+    },
+    {
+      "id": "FA107",
+      "category": "Farmakoloji",
+      "prompt": "Streptomisin için en doğru etki mekanizması hangisi?",
+      "choice_a": "30S ribozomal alt ünite bağlanması",
+      "choice_b": "Hücre duvar sentez inhibisyonu",
+      "choice_c": "DNA giraz/topoizomeraz II inhibisyonu",
+      "choice_d": "HMG-CoA redüktaz inhibisyonu",
+      "correct": "A",
+      "explanation": "Temel mekanizma: 30S ribozomal alt ünite bağlanması."
+    },
+    {
+      "id": "FA108",
+      "category": "Farmakoloji",
+      "prompt": "Streptomisin için tipik yan etki hangisidir?",
+      "choice_a": "Nefro/ototoksisite",
+      "choice_b": "Kanama riski",
+      "choice_c": "Taşikardi",
+      "choice_d": "Ototoksisite",
+      "correct": "A",
+      "explanation": "Sık yan etki: Nefro/ototoksisite."
+    },
+    {
+      "id": "FA109",
+      "category": "Farmakoloji",
+      "prompt": "Penisilin G hangi ilaç sınıfına aittir?",
+      "choice_a": "Penisilin",
+      "choice_b": "ACE inhibitörü",
+      "choice_c": "Kinolon",
+      "choice_d": "Statin",
+      "correct": "A",
+      "explanation": "Penisilin G, Penisilin sınıfındandır."
+    },
+    {
+      "id": "FA110",
+      "category": "Farmakoloji",
+      "prompt": "Penisilin G için en doğru etki mekanizması hangisi?",
+      "choice_a": "PBPs ile hücre duvar sentez inhibisyonu",
+      "choice_b": "Na/K/2Cl kotransporter inhibisyonu",
+      "choice_c": "30S ribozomal alt ünite bağlanması",
+      "choice_d": "50S ribozomal alt ünite bağlanması",
+      "correct": "A",
+      "explanation": "Temel mekanizma: PBPs ile hücre duvar sentez inhibisyonu."
+    },
+    {
+      "id": "FA111",
+      "category": "Farmakoloji",
+      "prompt": "Penisilin G için tipik yan etki hangisidir?",
+      "choice_a": "Alerji/döküntü",
+      "choice_b": "Hiperkalemi",
+      "choice_c": "Ödem",
+      "choice_d": "Kanama riski",
+      "correct": "A",
+      "explanation": "Sık yan etki: Alerji/döküntü."
+    },
+    {
+      "id": "FA112",
+      "category": "Farmakoloji",
+      "prompt": "Amoksisilin hangi ilaç sınıfına aittir?",
+      "choice_a": "Penisilin",
+      "choice_b": "NSAID",
+      "choice_c": "Statin",
+      "choice_d": "Loop diüretik",
+      "correct": "A",
+      "explanation": "Amoksisilin, Penisilin sınıfındandır."
+    },
+    {
+      "id": "FA113",
+      "category": "Farmakoloji",
+      "prompt": "Amoksisilin için en doğru etki mekanizması hangisi?",
+      "choice_a": "PBPs ile hücre duvar sentez inhibisyonu",
+      "choice_b": "β-adrenerjik reseptör antagonizması",
+      "choice_c": "AT1 reseptör blokajı",
+      "choice_d": "L-tipi kalsiyum kanalı blokajı",
+      "correct": "A",
+      "explanation": "Temel mekanizma: PBPs ile hücre duvar sentez inhibisyonu."
+    },
+    {
+      "id": "FA114",
+      "category": "Farmakoloji",
+      "prompt": "Amoksisilin için tipik yan etki hangisidir?",
+      "choice_a": "Alerji/döküntü",
+      "choice_b": "Akut böbrek hasarı",
+      "choice_c": "Ödem",
+      "choice_d": "Kanama riski",
+      "correct": "A",
+      "explanation": "Sık yan etki: Alerji/döküntü."
+    },
+    {
+      "id": "FA115",
+      "category": "Farmakoloji",
+      "prompt": "Ampisilin hangi ilaç sınıfına aittir?",
+      "choice_a": "Penisilin",
+      "choice_b": "PPI",
+      "choice_c": "ARB",
+      "choice_d": "Tiazid diüretik",
+      "correct": "A",
+      "explanation": "Ampisilin, Penisilin sınıfındandır."
+    },
+    {
+      "id": "FA116",
+      "category": "Farmakoloji",
+      "prompt": "Ampisilin için en doğru etki mekanizması hangisi?",
+      "choice_a": "PBPs ile hücre duvar sentez inhibisyonu",
+      "choice_b": "HMG-CoA redüktaz inhibisyonu",
+      "choice_c": "L-tipi kalsiyum kanalı blokajı",
+      "choice_d": "Na/K/2Cl kotransporter inhibisyonu",
+      "correct": "A",
+      "explanation": "Temel mekanizma: PBPs ile hücre duvar sentez inhibisyonu."
+    },
+    {
+      "id": "FA117",
+      "category": "Farmakoloji",
+      "prompt": "Ampisilin için tipik yan etki hangisidir?",
+      "choice_a": "Alerji/döküntü",
+      "choice_b": "Kabızlık",
+      "choice_c": "Hipokalemi",
+      "choice_d": "Nefrotoksisite",
+      "correct": "A",
+      "explanation": "Sık yan etki: Alerji/döküntü."
+    },
+    {
+      "id": "FA118",
+      "category": "Farmakoloji",
+      "prompt": "Piperasilin hangi ilaç sınıfına aittir?",
+      "choice_a": "Penisilin",
+      "choice_b": "Opioid",
+      "choice_c": "Aminoglikozid",
+      "choice_d": "Tiazid diüretik",
+      "correct": "A",
+      "explanation": "Piperasilin, Penisilin sınıfındandır."
+    },
+    {
+      "id": "FA119",
+      "category": "Farmakoloji",
+      "prompt": "Piperasilin için en doğru etki mekanizması hangisi?",
+      "choice_a": "PBPs ile hücre duvar sentez inhibisyonu",
+      "choice_b": "μ-opioid reseptör agonizması",
+      "choice_c": "COX-1/2 inhibisyonu",
+      "choice_d": "DNA giraz/topoizomeraz II inhibisyonu",
+      "correct": "A",
+      "explanation": "Temel mekanizma: PBPs ile hücre duvar sentez inhibisyonu."
+    },
+    {
+      "id": "FA120",
+      "category": "Farmakoloji",
+      "prompt": "Piperasilin için tipik yan etki hangisidir?",
+      "choice_a": "Alerji/döküntü",
+      "choice_b": "Rabdomiyoliz",
+      "choice_c": "Ototoksisite",
+      "choice_d": "Akut böbrek hasarı",
+      "correct": "A",
+      "explanation": "Sık yan etki: Alerji/döküntü."
+    },
+    {
+      "id": "FA121",
+      "category": "Farmakoloji",
+      "prompt": "Sefazolin hangi ilaç sınıfına aittir?",
+      "choice_a": "Sefalosporin",
+      "choice_b": "Kalsiyum kanal blokeri",
+      "choice_c": "ACE inhibitörü",
+      "choice_d": "Tetrasiklin",
+      "correct": "A",
+      "explanation": "Sefazolin, Sefalosporin sınıfındandır."
+    },
+    {
+      "id": "FA122",
+      "category": "Farmakoloji",
+      "prompt": "Sefazolin için en doğru etki mekanizması hangisi?",
+      "choice_a": "Hücre duvar sentez inhibisyonu",
+      "choice_b": "β-adrenerjik reseptör antagonizması",
+      "choice_c": "ACE inhibisyonu",
+      "choice_d": "AT1 reseptör blokajı",
+      "correct": "A",
+      "explanation": "Temel mekanizma: Hücre duvar sentez inhibisyonu."
+    },
+    {
+      "id": "FA123",
+      "category": "Farmakoloji",
+      "prompt": "Sefazolin için tipik yan etki hangisidir?",
+      "choice_a": "Diyare/kolonizasyon değişikliği",
+      "choice_b": "Bradikardi",
+      "choice_c": "Akut böbrek hasarı",
+      "choice_d": "Rabdomiyoliz",
+      "correct": "A",
+      "explanation": "Sık yan etki: Diyare/kolonizasyon değişikliği."
+    },
+    {
+      "id": "FA124",
+      "category": "Farmakoloji",
+      "prompt": "Seftriakson hangi ilaç sınıfına aittir?",
+      "choice_a": "Sefalosporin",
+      "choice_b": "Kalsiyum kanal blokeri",
+      "choice_c": "Loop diüretik",
+      "choice_d": "PPI",
+      "correct": "A",
+      "explanation": "Seftriakson, Sefalosporin sınıfındandır."
+    },
+    {
+      "id": "FA125",
+      "category": "Farmakoloji",
+      "prompt": "Seftriakson için en doğru etki mekanizması hangisi?",
+      "choice_a": "Hücre duvar sentez inhibisyonu",
+      "choice_b": "Na/Cl kotransporter inhibisyonu",
+      "choice_c": "PBPs ile hücre duvar sentez inhibisyonu",
+      "choice_d": "30S ribozomal alt ünite bağlanması",
+      "correct": "A",
+      "explanation": "Temel mekanizma: Hücre duvar sentez inhibisyonu."
+    },
+    {
+      "id": "FA126",
+      "category": "Farmakoloji",
+      "prompt": "Seftriakson için tipik yan etki hangisidir?",
+      "choice_a": "Diyare/kolonizasyon değişikliği",
+      "choice_b": "Akut böbrek hasarı",
+      "choice_c": "Kuru öksürük",
+      "choice_d": "Ödem",
+      "correct": "A",
+      "explanation": "Sık yan etki: Diyare/kolonizasyon değişikliği."
+    },
+    {
+      "id": "FA127",
+      "category": "Farmakoloji",
+      "prompt": "Sefepim hangi ilaç sınıfına aittir?",
+      "choice_a": "Sefalosporin",
+      "choice_b": "Tiazid diüretik",
+      "choice_c": "Opioid",
+      "choice_d": "ACE inhibitörü",
+      "correct": "A",
+      "explanation": "Sefepim, Sefalosporin sınıfındandır."
+    },
+    {
+      "id": "FA128",
+      "category": "Farmakoloji",
+      "prompt": "Sefepim için en doğru etki mekanizması hangisi?",
+      "choice_a": "Hücre duvar sentez inhibisyonu",
+      "choice_b": "Na/K/2Cl kotransporter inhibisyonu",
+      "choice_c": "L-tipi kalsiyum kanalı blokajı",
+      "choice_d": "PBPs ile hücre duvar sentez inhibisyonu",
+      "correct": "A",
+      "explanation": "Temel mekanizma: Hücre duvar sentez inhibisyonu."
+    },
+    {
+      "id": "FA129",
+      "category": "Farmakoloji",
+      "prompt": "Sefepim için tipik yan etki hangisidir?",
+      "choice_a": "Diyare/kolonizasyon değişikliği",
+      "choice_b": "Hiperglisemi",
+      "choice_c": "Hipoglisemi",
+      "choice_d": "Ototoksisite",
+      "correct": "A",
+      "explanation": "Sık yan etki: Diyare/kolonizasyon değişikliği."
+    },
+    {
+      "id": "FA130",
+      "category": "Farmakoloji",
+      "prompt": "Sefuroksim hangi ilaç sınıfına aittir?",
+      "choice_a": "Sefalosporin",
+      "choice_b": "ARB",
+      "choice_c": "Penisilin",
+      "choice_d": "Aminoglikozid",
+      "correct": "A",
+      "explanation": "Sefuroksim, Sefalosporin sınıfındandır."
+    },
+    {
+      "id": "FA131",
+      "category": "Farmakoloji",
+      "prompt": "Sefuroksim için en doğru etki mekanizması hangisi?",
+      "choice_a": "Hücre duvar sentez inhibisyonu",
+      "choice_b": "H+/K+ ATPaz inhibisyonu",
+      "choice_c": "ACE inhibisyonu",
+      "choice_d": "Na/Cl kotransporter inhibisyonu",
+      "correct": "A",
+      "explanation": "Temel mekanizma: Hücre duvar sentez inhibisyonu."
+    },
+    {
+      "id": "FA132",
+      "category": "Farmakoloji",
+      "prompt": "Sefuroksim için tipik yan etki hangisidir?",
+      "choice_a": "Diyare/kolonizasyon değişikliği",
+      "choice_b": "Hiperkalemi",
+      "choice_c": "Nefrotoksisite",
+      "choice_d": "Hipokalemi",
+      "correct": "A",
+      "explanation": "Sık yan etki: Diyare/kolonizasyon değişikliği."
+    },
+    {
+      "id": "FA133",
+      "category": "Farmakoloji",
+      "prompt": "Siprofloksasin hangi ilaç sınıfına aittir?",
+      "choice_a": "Kinolon",
+      "choice_b": "Statin",
+      "choice_c": "NSAID",
+      "choice_d": "PPI",
+      "correct": "A",
+      "explanation": "Siprofloksasin, Kinolon sınıfındandır."
+    },
+    {
+      "id": "FA134",
+      "category": "Farmakoloji",
+      "prompt": "Siprofloksasin için en doğru etki mekanizması hangisi?",
+      "choice_a": "DNA giraz/topoizomeraz II inhibisyonu",
+      "choice_b": "AT1 reseptör blokajı",
+      "choice_c": "COX-1/2 inhibisyonu",
+      "choice_d": "μ-opioid reseptör agonizması",
+      "correct": "A",
+      "explanation": "Temel mekanizma: DNA giraz/topoizomeraz II inhibisyonu."
+    },
+    {
+      "id": "FA135",
+      "category": "Farmakoloji",
+      "prompt": "Siprofloksasin için tipik yan etki hangisidir?",
+      "choice_a": "Tendon rüptürü riski",
+      "choice_b": "Ödem",
+      "choice_c": "Hipokalemi",
+      "choice_d": "Kanama riski",
+      "correct": "A",
+      "explanation": "Sık yan etki: Tendon rüptürü riski."
+    },
+    {
+      "id": "FA136",
+      "category": "Farmakoloji",
+      "prompt": "Levofloksasin hangi ilaç sınıfına aittir?",
+      "choice_a": "Kinolon",
+      "choice_b": "Penisilin",
+      "choice_c": "PPI",
+      "choice_d": "Statin",
+      "correct": "A",
+      "explanation": "Levofloksasin, Kinolon sınıfındandır."
+    },
+    {
+      "id": "FA137",
+      "category": "Farmakoloji",
+      "prompt": "Levofloksasin için en doğru etki mekanizması hangisi?",
+      "choice_a": "DNA giraz/topoizomeraz II inhibisyonu",
+      "choice_b": "ACE inhibisyonu",
+      "choice_c": "PBPs ile hücre duvar sentez inhibisyonu",
+      "choice_d": "30S ribozomal alt ünite bağlanması",
+      "correct": "A",
+      "explanation": "Temel mekanizma: DNA giraz/topoizomeraz II inhibisyonu."
+    },
+    {
+      "id": "FA138",
+      "category": "Farmakoloji",
+      "prompt": "Levofloksasin için tipik yan etki hangisidir?",
+      "choice_a": "Tendon rüptürü riski",
+      "choice_b": "Taşikardi",
+      "choice_c": "Kanama riski",
+      "choice_d": "Hipokalemi",
+      "correct": "A",
+      "explanation": "Sık yan etki: Tendon rüptürü riski."
+    },
+    {
+      "id": "FA139",
+      "category": "Farmakoloji",
+      "prompt": "Moksifloksasin hangi ilaç sınıfına aittir?",
+      "choice_a": "Kinolon",
+      "choice_b": "Loop diüretik",
+      "choice_c": "Tiazid diüretik",
+      "choice_d": "Opioid",
+      "correct": "A",
+      "explanation": "Moksifloksasin, Kinolon sınıfındandır."
+    },
+    {
+      "id": "FA140",
+      "category": "Farmakoloji",
+      "prompt": "Moksifloksasin için en doğru etki mekanizması hangisi?",
+      "choice_a": "DNA giraz/topoizomeraz II inhibisyonu",
+      "choice_b": "PBPs ile hücre duvar sentez inhibisyonu",
+      "choice_c": "30S ribozomal alt ünite bağlanması",
+      "choice_d": "ACE inhibisyonu",
+      "correct": "A",
+      "explanation": "Temel mekanizma: DNA giraz/topoizomeraz II inhibisyonu."
+    },
+    {
+      "id": "FA141",
+      "category": "Farmakoloji",
+      "prompt": "Moksifloksasin için tipik yan etki hangisidir?",
+      "choice_a": "Tendon rüptürü riski",
+      "choice_b": "Ototoksisite",
+      "choice_c": "Kuru öksürük",
+      "choice_d": "Hipokalemi",
+      "correct": "A",
+      "explanation": "Sık yan etki: Tendon rüptürü riski."
+    },
+    {
+      "id": "FA142",
+      "category": "Farmakoloji",
+      "prompt": "Ofloxacin hangi ilaç sınıfına aittir?",
+      "choice_a": "Kinolon",
+      "choice_b": "PPI",
+      "choice_c": "Beta-bloker",
+      "choice_d": "Loop diüretik",
+      "correct": "A",
+      "explanation": "Ofloxacin, Kinolon sınıfındandır."
+    },
+    {
+      "id": "FA143",
+      "category": "Farmakoloji",
+      "prompt": "Ofloxacin için en doğru etki mekanizması hangisi?",
+      "choice_a": "DNA giraz/topoizomeraz II inhibisyonu",
+      "choice_b": "β-adrenerjik reseptör antagonizması",
+      "choice_c": "PBPs ile hücre duvar sentez inhibisyonu",
+      "choice_d": "Hücre duvar sentez inhibisyonu",
+      "correct": "A",
+      "explanation": "Temel mekanizma: DNA giraz/topoizomeraz II inhibisyonu."
+    },
+    {
+      "id": "FA144",
+      "category": "Farmakoloji",
+      "prompt": "Ofloxacin için tipik yan etki hangisidir?",
+      "choice_a": "Tendon rüptürü riski",
+      "choice_b": "Hiperkalemi",
+      "choice_c": "Hipokalemi",
+      "choice_d": "Nefrotoksisite",
+      "correct": "A",
+      "explanation": "Sık yan etki: Tendon rüptürü riski."
+    },
+    {
+      "id": "FA145",
+      "category": "Farmakoloji",
+      "prompt": "Doksisiklin hangi ilaç sınıfına aittir?",
+      "choice_a": "Tetrasiklin",
+      "choice_b": "ACE inhibitörü",
+      "choice_c": "NSAID",
+      "choice_d": "PPI",
+      "correct": "A",
+      "explanation": "Doksisiklin, Tetrasiklin sınıfındandır."
+    },
+    {
+      "id": "FA146",
+      "category": "Farmakoloji",
+      "prompt": "Doksisiklin için en doğru etki mekanizması hangisi?",
+      "choice_a": "30S bağlanması (protein sentezi inhibisyonu)",
+      "choice_b": "β-adrenerjik reseptör antagonizması",
+      "choice_c": "L-tipi kalsiyum kanalı blokajı",
+      "choice_d": "COX-1/2 inhibisyonu",
+      "correct": "A",
+      "explanation": "Temel mekanizma: 30S bağlanması (protein sentezi inhibisyonu)."
+    },
+    {
+      "id": "FA147",
+      "category": "Farmakoloji",
+      "prompt": "Doksisiklin için tipik yan etki hangisidir?",
+      "choice_a": "Fotosensitivite",
+      "choice_b": "Hiperglisemi",
+      "choice_c": "Kanama riski",
+      "choice_d": "Nefrotoksisite",
+      "correct": "A",
+      "explanation": "Sık yan etki: Fotosensitivite."
+    },
+    {
+      "id": "FA148",
+      "category": "Farmakoloji",
+      "prompt": "Tetrasiklin hangi ilaç sınıfına aittir?",
+      "choice_a": "Tetrasiklin",
+      "choice_b": "ARB",
+      "choice_c": "ACE inhibitörü",
+      "choice_d": "Makrolid",
+      "correct": "A",
+      "explanation": "Tetrasiklin, Tetrasiklin sınıfındandır."
+    },
+    {
+      "id": "FA149",
+      "category": "Farmakoloji",
+      "prompt": "Tetrasiklin için en doğru etki mekanizması hangisi?",
+      "choice_a": "30S bağlanması (protein sentezi inhibisyonu)",
+      "choice_b": "AT1 reseptör blokajı",
+      "choice_c": "Hücre duvar sentez inhibisyonu",
+      "choice_d": "L-tipi kalsiyum kanalı blokajı",
+      "correct": "A",
+      "explanation": "Temel mekanizma: 30S bağlanması (protein sentezi inhibisyonu)."
+    },
+    {
+      "id": "FA150",
+      "category": "Farmakoloji",
+      "prompt": "Tetrasiklin için tipik yan etki hangisidir?",
+      "choice_a": "Fotosensitivite",
+      "choice_b": "Bradikardi",
+      "choice_c": "Hipoglisemi",
+      "choice_d": "Hipokalemi",
+      "correct": "A",
+      "explanation": "Sık yan etki: Fotosensitivite."
+    },
+    {
+      "id": "FA151",
+      "category": "Farmakoloji",
+      "prompt": "Minosiklin hangi ilaç sınıfına aittir?",
+      "choice_a": "Tetrasiklin",
+      "choice_b": "Statin",
+      "choice_c": "Opioid",
+      "choice_d": "PPI",
+      "correct": "A",
+      "explanation": "Minosiklin, Tetrasiklin sınıfındandır."
+    },
+    {
+      "id": "FA152",
+      "category": "Farmakoloji",
+      "prompt": "Minosiklin için en doğru etki mekanizması hangisi?",
+      "choice_a": "30S bağlanması (protein sentezi inhibisyonu)",
+      "choice_b": "30S ribozomal alt ünite bağlanması",
+      "choice_c": "COX-1/2 inhibisyonu",
+      "choice_d": "Na/K/2Cl kotransporter inhibisyonu",
+      "correct": "A",
+      "explanation": "Temel mekanizma: 30S bağlanması (protein sentezi inhibisyonu)."
+    },
+    {
+      "id": "FA153",
+      "category": "Farmakoloji",
+      "prompt": "Minosiklin için tipik yan etki hangisidir?",
+      "choice_a": "Fotosensitivite",
+      "choice_b": "Rabdomiyoliz",
+      "choice_c": "Kuru öksürük",
+      "choice_d": "Hipoglisemi",
+      "correct": "A",
+      "explanation": "Sık yan etki: Fotosensitivite."
+    },
+    {
+      "id": "FA154",
+      "category": "Farmakoloji",
+      "prompt": "Tigecycline hangi ilaç sınıfına aittir?",
+      "choice_a": "Tetrasiklin",
+      "choice_b": "Makrolid",
+      "choice_c": "Tiazid diüretik",
+      "choice_d": "ACE inhibitörü",
+      "correct": "A",
+      "explanation": "Tigecycline, Tetrasiklin sınıfındandır."
+    },
+    {
+      "id": "FA155",
+      "category": "Farmakoloji",
+      "prompt": "Tigecycline için en doğru etki mekanizması hangisi?",
+      "choice_a": "30S bağlanması (protein sentezi inhibisyonu)",
+      "choice_b": "L-tipi kalsiyum kanalı blokajı",
+      "choice_c": "Hücre duvar sentez inhibisyonu",
+      "choice_d": "Na/Cl kotransporter inhibisyonu",
+      "correct": "A",
+      "explanation": "Temel mekanizma: 30S bağlanması (protein sentezi inhibisyonu)."
+    },
+    {
+      "id": "FA156",
+      "category": "Farmakoloji",
+      "prompt": "Tigecycline için tipik yan etki hangisidir?",
+      "choice_a": "Fotosensitivite",
+      "choice_b": "Hiperkalemi",
+      "choice_c": "Akut böbrek hasarı",
+      "choice_d": "Hiperglisemi",
+      "correct": "A",
+      "explanation": "Sık yan etki: Fotosensitivite."
+    },
+    {
+      "id": "FA157",
+      "category": "Farmakoloji",
+      "prompt": "Omeprazol hangi ilaç sınıfına aittir?",
+      "choice_a": "PPI",
+      "choice_b": "Tetrasiklin",
+      "choice_c": "Loop diüretik",
+      "choice_d": "Kinolon",
+      "correct": "A",
+      "explanation": "Omeprazol, PPI sınıfındandır."
+    },
+    {
+      "id": "FA158",
+      "category": "Farmakoloji",
+      "prompt": "Omeprazol için en doğru etki mekanizması hangisi?",
+      "choice_a": "H+/K+ ATPaz inhibisyonu",
+      "choice_b": "PBPs ile hücre duvar sentez inhibisyonu",
+      "choice_c": "Na/Cl kotransporter inhibisyonu",
+      "choice_d": "50S ribozomal alt ünite bağlanması",
+      "correct": "A",
+      "explanation": "Temel mekanizma: H+/K+ ATPaz inhibisyonu."
+    },
+    {
+      "id": "FA159",
+      "category": "Farmakoloji",
+      "prompt": "Omeprazol için tipik yan etki hangisidir?",
+      "choice_a": "Hipomagnezemi",
+      "choice_b": "Nefrotoksisite",
+      "choice_c": "Ödem",
+      "choice_d": "Akut böbrek hasarı",
+      "correct": "A",
+      "explanation": "Sık yan etki: Hipomagnezemi."
+    },
+    {
+      "id": "FA160",
+      "category": "Farmakoloji",
+      "prompt": "Pantoprazol hangi ilaç sınıfına aittir?",
+      "choice_a": "PPI",
+      "choice_b": "ACE inhibitörü",
+      "choice_c": "Opioid",
+      "choice_d": "Tiazid diüretik",
+      "correct": "A",
+      "explanation": "Pantoprazol, PPI sınıfındandır."
+    },
+    {
+      "id": "FA161",
+      "category": "Farmakoloji",
+      "prompt": "Pantoprazol için en doğru etki mekanizması hangisi?",
+      "choice_a": "H+/K+ ATPaz inhibisyonu",
+      "choice_b": "PBPs ile hücre duvar sentez inhibisyonu",
+      "choice_c": "50S ribozomal alt ünite bağlanması",
+      "choice_d": "ACE inhibisyonu",
+      "correct": "A",
+      "explanation": "Temel mekanizma: H+/K+ ATPaz inhibisyonu."
+    },
+    {
+      "id": "FA162",
+      "category": "Farmakoloji",
+      "prompt": "Pantoprazol için tipik yan etki hangisidir?",
+      "choice_a": "Hipomagnezemi",
+      "choice_b": "Kuru öksürük",
+      "choice_c": "Taşikardi",
+      "choice_d": "Kanama riski",
+      "correct": "A",
+      "explanation": "Sık yan etki: Hipomagnezemi."
+    },
+    {
+      "id": "FA163",
+      "category": "Farmakoloji",
+      "prompt": "Lansoprazol hangi ilaç sınıfına aittir?",
+      "choice_a": "PPI",
+      "choice_b": "Tetrasiklin",
+      "choice_c": "Aminoglikozid",
+      "choice_d": "Kinolon",
+      "correct": "A",
+      "explanation": "Lansoprazol, PPI sınıfındandır."
+    },
+    {
+      "id": "FA164",
+      "category": "Farmakoloji",
+      "prompt": "Lansoprazol için en doğru etki mekanizması hangisi?",
+      "choice_a": "H+/K+ ATPaz inhibisyonu",
+      "choice_b": "50S ribozomal alt ünite bağlanması",
+      "choice_c": "Hücre duvar sentez inhibisyonu",
+      "choice_d": "Na/Cl kotransporter inhibisyonu",
+      "correct": "A",
+      "explanation": "Temel mekanizma: H+/K+ ATPaz inhibisyonu."
+    },
+    {
+      "id": "FA165",
+      "category": "Farmakoloji",
+      "prompt": "Lansoprazol için tipik yan etki hangisidir?",
+      "choice_a": "Hipomagnezemi",
       "choice_b": "Kuru öksürük",
       "choice_c": "Bradikardi",
-      "choice_d": "Kabızlık",
-      "correct": "B",
-      "explanation": "Bradikinin artışı → kuru öksürük."
+      "choice_d": "Rabdomiyoliz",
+      "correct": "A",
+      "explanation": "Sık yan etki: Hipomagnezemi."
+    },
+    {
+      "id": "FA166",
+      "category": "Farmakoloji",
+      "prompt": "Esomeprazol hangi ilaç sınıfına aittir?",
+      "choice_a": "PPI",
+      "choice_b": "Kalsiyum kanal blokeri",
+      "choice_c": "Loop diüretik",
+      "choice_d": "Opioid",
+      "correct": "A",
+      "explanation": "Esomeprazol, PPI sınıfındandır."
+    },
+    {
+      "id": "FA167",
+      "category": "Farmakoloji",
+      "prompt": "Esomeprazol için en doğru etki mekanizması hangisi?",
+      "choice_a": "H+/K+ ATPaz inhibisyonu",
+      "choice_b": "L-tipi kalsiyum kanalı blokajı",
+      "choice_c": "Na/Cl kotransporter inhibisyonu",
+      "choice_d": "ACE inhibisyonu",
+      "correct": "A",
+      "explanation": "Temel mekanizma: H+/K+ ATPaz inhibisyonu."
+    },
+    {
+      "id": "FA168",
+      "category": "Farmakoloji",
+      "prompt": "Esomeprazol için tipik yan etki hangisidir?",
+      "choice_a": "Hipomagnezemi",
+      "choice_b": "Akut böbrek hasarı",
+      "choice_c": "Kuru öksürük",
+      "choice_d": "Hipokalemi",
+      "correct": "A",
+      "explanation": "Sık yan etki: Hipomagnezemi."
+    },
+    {
+      "id": "FA169",
+      "category": "Farmakoloji",
+      "prompt": "İbuprofen hangi ilaç sınıfına aittir?",
+      "choice_a": "NSAID",
+      "choice_b": "Tetrasiklin",
+      "choice_c": "Makrolid",
+      "choice_d": "ACE inhibitörü",
+      "correct": "A",
+      "explanation": "İbuprofen, NSAID sınıfındandır."
+    },
+    {
+      "id": "FA170",
+      "category": "Farmakoloji",
+      "prompt": "İbuprofen için en doğru etki mekanizması hangisi?",
+      "choice_a": "COX-1/2 inhibisyonu",
+      "choice_b": "Hücre duvar sentez inhibisyonu",
+      "choice_c": "PBPs ile hücre duvar sentez inhibisyonu",
+      "choice_d": "μ-opioid reseptör agonizması",
+      "correct": "A",
+      "explanation": "Temel mekanizma: COX-1/2 inhibisyonu."
+    },
+    {
+      "id": "FA171",
+      "category": "Farmakoloji",
+      "prompt": "İbuprofen için tipik yan etki hangisidir?",
+      "choice_a": "GİS ülser/kanama",
+      "choice_b": "Ödem",
+      "choice_c": "Taşikardi",
+      "choice_d": "Nefrotoksisite",
+      "correct": "A",
+      "explanation": "Sık yan etki: GİS ülser/kanama."
+    },
+    {
+      "id": "FA172",
+      "category": "Farmakoloji",
+      "prompt": "Naproksen hangi ilaç sınıfına aittir?",
+      "choice_a": "NSAID",
+      "choice_b": "Loop diüretik",
+      "choice_c": "Beta-bloker",
+      "choice_d": "Tiazid diüretik",
+      "correct": "A",
+      "explanation": "Naproksen, NSAID sınıfındandır."
+    },
+    {
+      "id": "FA173",
+      "category": "Farmakoloji",
+      "prompt": "Naproksen için en doğru etki mekanizması hangisi?",
+      "choice_a": "COX-1/2 inhibisyonu",
+      "choice_b": "AT1 reseptör blokajı",
+      "choice_c": "Na/Cl kotransporter inhibisyonu",
+      "choice_d": "30S bağlanması (protein sentezi inhibisyonu)",
+      "correct": "A",
+      "explanation": "Temel mekanizma: COX-1/2 inhibisyonu."
+    },
+    {
+      "id": "FA174",
+      "category": "Farmakoloji",
+      "prompt": "Naproksen için tipik yan etki hangisidir?",
+      "choice_a": "GİS ülser/kanama",
+      "choice_b": "Akut böbrek hasarı",
+      "choice_c": "Kanama riski",
+      "choice_d": "Kuru öksürük",
+      "correct": "A",
+      "explanation": "Sık yan etki: GİS ülser/kanama."
+    },
+    {
+      "id": "FA175",
+      "category": "Farmakoloji",
+      "prompt": "Diklofenak hangi ilaç sınıfına aittir?",
+      "choice_a": "NSAID",
+      "choice_b": "Kalsiyum kanal blokeri",
+      "choice_c": "Tiazid diüretik",
+      "choice_d": "ACE inhibitörü",
+      "correct": "A",
+      "explanation": "Diklofenak, NSAID sınıfındandır."
+    },
+    {
+      "id": "FA176",
+      "category": "Farmakoloji",
+      "prompt": "Diklofenak için en doğru etki mekanizması hangisi?",
+      "choice_a": "COX-1/2 inhibisyonu",
+      "choice_b": "30S ribozomal alt ünite bağlanması",
+      "choice_c": "PBPs ile hücre duvar sentez inhibisyonu",
+      "choice_d": "H+/K+ ATPaz inhibisyonu",
+      "correct": "A",
+      "explanation": "Temel mekanizma: COX-1/2 inhibisyonu."
+    },
+    {
+      "id": "FA177",
+      "category": "Farmakoloji",
+      "prompt": "Diklofenak için tipik yan etki hangisidir?",
+      "choice_a": "GİS ülser/kanama",
+      "choice_b": "Hiperglisemi",
+      "choice_c": "Kanama riski",
+      "choice_d": "Hipokalemi",
+      "correct": "A",
+      "explanation": "Sık yan etki: GİS ülser/kanama."
+    },
+    {
+      "id": "FA178",
+      "category": "Farmakoloji",
+      "prompt": "Indometazin hangi ilaç sınıfına aittir?",
+      "choice_a": "NSAID",
+      "choice_b": "Kalsiyum kanal blokeri",
+      "choice_c": "Opioid",
+      "choice_d": "Beta-bloker",
+      "correct": "A",
+      "explanation": "Indometazin, NSAID sınıfındandır."
+    },
+    {
+      "id": "FA179",
+      "category": "Farmakoloji",
+      "prompt": "Indometazin için en doğru etki mekanizması hangisi?",
+      "choice_a": "COX-1/2 inhibisyonu",
+      "choice_b": "30S bağlanması (protein sentezi inhibisyonu)",
+      "choice_c": "L-tipi kalsiyum kanalı blokajı",
+      "choice_d": "HMG-CoA redüktaz inhibisyonu",
+      "correct": "A",
+      "explanation": "Temel mekanizma: COX-1/2 inhibisyonu."
+    },
+    {
+      "id": "FA180",
+      "category": "Farmakoloji",
+      "prompt": "Indometazin için tipik yan etki hangisidir?",
+      "choice_a": "GİS ülser/kanama",
+      "choice_b": "Hipokalemi",
+      "choice_c": "Kuru öksürük",
+      "choice_d": "Rabdomiyoliz",
+      "correct": "A",
+      "explanation": "Sık yan etki: GİS ülser/kanama."
+    },
+    {
+      "id": "FA181",
+      "category": "Farmakoloji",
+      "prompt": "Morfin hangi ilaç sınıfına aittir?",
+      "choice_a": "Opioid",
+      "choice_b": "PPI",
+      "choice_c": "ACE inhibitörü",
+      "choice_d": "Kinolon",
+      "correct": "A",
+      "explanation": "Morfin, Opioid sınıfındandır."
+    },
+    {
+      "id": "FA182",
+      "category": "Farmakoloji",
+      "prompt": "Morfin için en doğru etki mekanizması hangisi?",
+      "choice_a": "μ-opioid reseptör agonizması",
+      "choice_b": "ACE inhibisyonu",
+      "choice_c": "β-adrenerjik reseptör antagonizması",
+      "choice_d": "Hücre duvar sentez inhibisyonu",
+      "correct": "A",
+      "explanation": "Temel mekanizma: μ-opioid reseptör agonizması."
+    },
+    {
+      "id": "FA183",
+      "category": "Farmakoloji",
+      "prompt": "Morfin için tipik yan etki hangisidir?",
+      "choice_a": "Solunum depresyonu",
+      "choice_b": "Hiperkalemi",
+      "choice_c": "Kuru öksürük",
+      "choice_d": "Ödem",
+      "correct": "A",
+      "explanation": "Sık yan etki: Solunum depresyonu."
+    },
+    {
+      "id": "FA184",
+      "category": "Farmakoloji",
+      "prompt": "Fentanil hangi ilaç sınıfına aittir?",
+      "choice_a": "Opioid",
+      "choice_b": "Makrolid",
+      "choice_c": "NSAID",
+      "choice_d": "ARB",
+      "correct": "A",
+      "explanation": "Fentanil, Opioid sınıfındandır."
+    },
+    {
+      "id": "FA185",
+      "category": "Farmakoloji",
+      "prompt": "Fentanil için en doğru etki mekanizması hangisi?",
+      "choice_a": "μ-opioid reseptör agonizması",
+      "choice_b": "ACE inhibisyonu",
+      "choice_c": "30S ribozomal alt ünite bağlanması",
+      "choice_d": "30S bağlanması (protein sentezi inhibisyonu)",
+      "correct": "A",
+      "explanation": "Temel mekanizma: μ-opioid reseptör agonizması."
+    },
+    {
+      "id": "FA186",
+      "category": "Farmakoloji",
+      "prompt": "Fentanil için tipik yan etki hangisidir?",
+      "choice_a": "Solunum depresyonu",
+      "choice_b": "Hiperglisemi",
+      "choice_c": "Ödem",
+      "choice_d": "Hipokalemi",
+      "correct": "A",
+      "explanation": "Sık yan etki: Solunum depresyonu."
+    },
+    {
+      "id": "FA187",
+      "category": "Farmakoloji",
+      "prompt": "Oksikodon hangi ilaç sınıfına aittir?",
+      "choice_a": "Opioid",
+      "choice_b": "Aminoglikozid",
+      "choice_c": "Sefalosporin",
+      "choice_d": "ARB",
+      "correct": "A",
+      "explanation": "Oksikodon, Opioid sınıfındandır."
+    },
+    {
+      "id": "FA188",
+      "category": "Farmakoloji",
+      "prompt": "Oksikodon için en doğru etki mekanizması hangisi?",
+      "choice_a": "μ-opioid reseptör agonizması",
+      "choice_b": "AT1 reseptör blokajı",
+      "choice_c": "30S bağlanması (protein sentezi inhibisyonu)",
+      "choice_d": "COX-1/2 inhibisyonu",
+      "correct": "A",
+      "explanation": "Temel mekanizma: μ-opioid reseptör agonizması."
+    },
+    {
+      "id": "FA189",
+      "category": "Farmakoloji",
+      "prompt": "Oksikodon için tipik yan etki hangisidir?",
+      "choice_a": "Solunum depresyonu",
+      "choice_b": "Bradikardi",
+      "choice_c": "Ödem",
+      "choice_d": "Kuru öksürük",
+      "correct": "A",
+      "explanation": "Sık yan etki: Solunum depresyonu."
+    },
+    {
+      "id": "FA190",
+      "category": "Farmakoloji",
+      "prompt": "Kodein hangi ilaç sınıfına aittir?",
+      "choice_a": "Opioid",
+      "choice_b": "ACE inhibitörü",
+      "choice_c": "Kinolon",
+      "choice_d": "Aminoglikozid",
+      "correct": "A",
+      "explanation": "Kodein, Opioid sınıfındandır."
+    },
+    {
+      "id": "FA191",
+      "category": "Farmakoloji",
+      "prompt": "Kodein için en doğru etki mekanizması hangisi?",
+      "choice_a": "μ-opioid reseptör agonizması",
+      "choice_b": "H+/K+ ATPaz inhibisyonu",
+      "choice_c": "PBPs ile hücre duvar sentez inhibisyonu",
+      "choice_d": "Na/K/2Cl kotransporter inhibisyonu",
+      "correct": "A",
+      "explanation": "Temel mekanizma: μ-opioid reseptör agonizması."
+    },
+    {
+      "id": "FA192",
+      "category": "Farmakoloji",
+      "prompt": "Kodein için tipik yan etki hangisidir?",
+      "choice_a": "Solunum depresyonu",
+      "choice_b": "Bradikardi",
+      "choice_c": "Taşikardi",
+      "choice_d": "Akut böbrek hasarı",
+      "correct": "A",
+      "explanation": "Sık yan etki: Solunum depresyonu."
     },
     {
       "id": "MI001",
       "category": "Mikrobiyoloji",
-      "prompt": "S. aureus için doğru kombinasyon hangisi?",
-      "choice_a": "Koagülaz -, Gram + kok",
-      "choice_b": "Koagülaz +, Gram + kok",
-      "choice_c": "Koagülaz +, Gram - basil",
-      "choice_d": "Koagülaz -, Gram - kok",
+      "prompt": "Staphylococcus aureus için uygun boyanma hangisi?",
+      "choice_a": "Asit-fast",
+      "choice_b": "Boyanmaz",
+      "choice_c": "Gram negatif",
+      "choice_d": "Gram pozitif",
+      "correct": "D",
+      "explanation": "Staphylococcus aureus → Gram pozitif."
+    },
+    {
+      "id": "MI002",
+      "category": "Mikrobiyoloji",
+      "prompt": "Staphylococcus aureus için doğru morfoloji?",
+      "choice_a": "Kok",
+      "choice_b": "Spiral",
+      "choice_c": "Pleomorfik",
+      "choice_d": "Basil",
+      "correct": "A",
+      "explanation": "Staphylococcus aureus → Kok."
+    },
+    {
+      "id": "MI003",
+      "category": "Mikrobiyoloji",
+      "prompt": "Staphylococcus aureus en çok hangi tabloyla ilişkilidir?",
+      "choice_a": "Deri apsesi",
+      "choice_b": "Pnömoni",
+      "choice_c": "Deri/soft doku enf.",
+      "choice_d": "İYE",
+      "correct": "C",
+      "explanation": "Sık ilişki: Deri/soft doku enf.."
+    },
+    {
+      "id": "MI004",
+      "category": "Mikrobiyoloji",
+      "prompt": "Streptococcus pyogenes için uygun boyanma hangisi?",
+      "choice_a": "Boyanmaz",
+      "choice_b": "Gram negatif",
+      "choice_c": "Gram pozitif",
+      "choice_d": "Asit-fast",
+      "correct": "C",
+      "explanation": "Streptococcus pyogenes → Gram pozitif."
+    },
+    {
+      "id": "MI005",
+      "category": "Mikrobiyoloji",
+      "prompt": "Streptococcus pyogenes için doğru morfoloji?",
+      "choice_a": "Kok",
+      "choice_b": "Basil",
+      "choice_c": "Spiral",
+      "choice_d": "Pleomorfik",
+      "correct": "A",
+      "explanation": "Streptococcus pyogenes → Kok."
+    },
+    {
+      "id": "MI006",
+      "category": "Mikrobiyoloji",
+      "prompt": "Streptococcus pyogenes en çok hangi tabloyla ilişkilidir?",
+      "choice_a": "Farenjit/erizipel",
+      "choice_b": "İYE",
+      "choice_c": "Pnömoni",
+      "choice_d": "Deri apsesi",
+      "correct": "A",
+      "explanation": "Sık ilişki: Farenjit/erizipel."
+    },
+    {
+      "id": "MI007",
+      "category": "Mikrobiyoloji",
+      "prompt": "Streptococcus pneumoniae için uygun boyanma hangisi?",
+      "choice_a": "Boyanmaz",
+      "choice_b": "Asit-fast",
+      "choice_c": "Gram negatif",
+      "choice_d": "Gram pozitif",
+      "correct": "D",
+      "explanation": "Streptococcus pneumoniae → Gram pozitif."
+    },
+    {
+      "id": "MI008",
+      "category": "Mikrobiyoloji",
+      "prompt": "Streptococcus pneumoniae için doğru morfoloji?",
+      "choice_a": "Kok",
+      "choice_b": "Spiral",
+      "choice_c": "Pleomorfik",
+      "choice_d": "Basil",
+      "correct": "A",
+      "explanation": "Streptococcus pneumoniae → Kok."
+    },
+    {
+      "id": "MI009",
+      "category": "Mikrobiyoloji",
+      "prompt": "Streptococcus pneumoniae en çok hangi tabloyla ilişkilidir?",
+      "choice_a": "Deri apsesi",
+      "choice_b": "İYE",
+      "choice_c": "Pnömoni",
+      "choice_d": "Lober pnömoni/otit",
+      "correct": "D",
+      "explanation": "Sık ilişki: Lober pnömoni/otit."
+    },
+    {
+      "id": "MI010",
+      "category": "Mikrobiyoloji",
+      "prompt": "Enterococcus faecalis için uygun boyanma hangisi?",
+      "choice_a": "Asit-fast",
+      "choice_b": "Gram negatif",
+      "choice_c": "Boyanmaz",
+      "choice_d": "Gram pozitif",
+      "correct": "D",
+      "explanation": "Enterococcus faecalis → Gram pozitif."
+    },
+    {
+      "id": "MI011",
+      "category": "Mikrobiyoloji",
+      "prompt": "Enterococcus faecalis için doğru morfoloji?",
+      "choice_a": "Pleomorfik",
+      "choice_b": "Kok",
+      "choice_c": "Spiral",
+      "choice_d": "Basil",
       "correct": "B",
-      "explanation": "Koagülaz pozitif ve Gram pozitif koktur."
+      "explanation": "Enterococcus faecalis → Kok."
+    },
+    {
+      "id": "MI012",
+      "category": "Mikrobiyoloji",
+      "prompt": "Enterococcus faecalis en çok hangi tabloyla ilişkilidir?",
+      "choice_a": "Endokardit/İYE",
+      "choice_b": "Pnömoni",
+      "choice_c": "Deri apsesi",
+      "choice_d": "İYE",
+      "correct": "A",
+      "explanation": "Sık ilişki: Endokardit/İYE."
+    },
+    {
+      "id": "MI013",
+      "category": "Mikrobiyoloji",
+      "prompt": "Escherichia coli için uygun boyanma hangisi?",
+      "choice_a": "Gram pozitif",
+      "choice_b": "Gram negatif",
+      "choice_c": "Asit-fast",
+      "choice_d": "Boyanmaz",
+      "correct": "B",
+      "explanation": "Escherichia coli → Gram negatif."
+    },
+    {
+      "id": "MI014",
+      "category": "Mikrobiyoloji",
+      "prompt": "Escherichia coli için doğru morfoloji?",
+      "choice_a": "Pleomorfik",
+      "choice_b": "Kok",
+      "choice_c": "Spiral",
+      "choice_d": "Basil",
+      "correct": "D",
+      "explanation": "Escherichia coli → Basil."
+    },
+    {
+      "id": "MI015",
+      "category": "Mikrobiyoloji",
+      "prompt": "Escherichia coli en çok hangi tabloyla ilişkilidir?",
+      "choice_a": "Pnömoni",
+      "choice_b": "İYE/sepsis",
+      "choice_c": "Deri apsesi",
+      "choice_d": "İYE",
+      "correct": "B",
+      "explanation": "Sık ilişki: İYE/sepsis."
+    },
+    {
+      "id": "MI016",
+      "category": "Mikrobiyoloji",
+      "prompt": "Pseudomonas aeruginosa için uygun boyanma hangisi?",
+      "choice_a": "Gram pozitif",
+      "choice_b": "Boyanmaz",
+      "choice_c": "Asit-fast",
+      "choice_d": "Gram negatif",
+      "correct": "D",
+      "explanation": "Pseudomonas aeruginosa → Gram negatif."
+    },
+    {
+      "id": "MI017",
+      "category": "Mikrobiyoloji",
+      "prompt": "Pseudomonas aeruginosa için doğru morfoloji?",
+      "choice_a": "Basil",
+      "choice_b": "Kok",
+      "choice_c": "Spiral",
+      "choice_d": "Pleomorfik",
+      "correct": "A",
+      "explanation": "Pseudomonas aeruginosa → Basil."
+    },
+    {
+      "id": "MI018",
+      "category": "Mikrobiyoloji",
+      "prompt": "Pseudomonas aeruginosa en çok hangi tabloyla ilişkilidir?",
+      "choice_a": "Hastane pnömonisi",
+      "choice_b": "Pnömoni",
+      "choice_c": "Deri apsesi",
+      "choice_d": "İYE",
+      "correct": "A",
+      "explanation": "Sık ilişki: Hastane pnömonisi."
+    },
+    {
+      "id": "MI019",
+      "category": "Mikrobiyoloji",
+      "prompt": "Klebsiella pneumoniae için uygun boyanma hangisi?",
+      "choice_a": "Asit-fast",
+      "choice_b": "Gram negatif",
+      "choice_c": "Gram pozitif",
+      "choice_d": "Boyanmaz",
+      "correct": "B",
+      "explanation": "Klebsiella pneumoniae → Gram negatif."
+    },
+    {
+      "id": "MI020",
+      "category": "Mikrobiyoloji",
+      "prompt": "Klebsiella pneumoniae için doğru morfoloji?",
+      "choice_a": "Kok",
+      "choice_b": "Basil",
+      "choice_c": "Pleomorfik",
+      "choice_d": "Spiral",
+      "correct": "B",
+      "explanation": "Klebsiella pneumoniae → Basil."
+    },
+    {
+      "id": "MI021",
+      "category": "Mikrobiyoloji",
+      "prompt": "Klebsiella pneumoniae en çok hangi tabloyla ilişkilidir?",
+      "choice_a": "Deri apsesi",
+      "choice_b": "Pnömoni",
+      "choice_c": "Alkolik pnömonisi",
+      "choice_d": "İYE",
+      "correct": "C",
+      "explanation": "Sık ilişki: Alkolik pnömonisi."
+    },
+    {
+      "id": "MI022",
+      "category": "Mikrobiyoloji",
+      "prompt": "Salmonella enterica için uygun boyanma hangisi?",
+      "choice_a": "Gram negatif",
+      "choice_b": "Boyanmaz",
+      "choice_c": "Gram pozitif",
+      "choice_d": "Asit-fast",
+      "correct": "A",
+      "explanation": "Salmonella enterica → Gram negatif."
+    },
+    {
+      "id": "MI023",
+      "category": "Mikrobiyoloji",
+      "prompt": "Salmonella enterica için doğru morfoloji?",
+      "choice_a": "Kok",
+      "choice_b": "Pleomorfik",
+      "choice_c": "Basil",
+      "choice_d": "Spiral",
+      "correct": "C",
+      "explanation": "Salmonella enterica → Basil."
+    },
+    {
+      "id": "MI024",
+      "category": "Mikrobiyoloji",
+      "prompt": "Salmonella enterica en çok hangi tabloyla ilişkilidir?",
+      "choice_a": "Deri apsesi",
+      "choice_b": "İYE",
+      "choice_c": "Tifo/gastroenterit",
+      "choice_d": "Pnömoni",
+      "correct": "C",
+      "explanation": "Sık ilişki: Tifo/gastroenterit."
+    },
+    {
+      "id": "MI025",
+      "category": "Mikrobiyoloji",
+      "prompt": "Mycobacterium tuberculosis için uygun boyanma hangisi?",
+      "choice_a": "Asit-fast",
+      "choice_b": "Gram negatif",
+      "choice_c": "Boyanmaz",
+      "choice_d": "Gram pozitif",
+      "correct": "A",
+      "explanation": "Mycobacterium tuberculosis → Asit-fast."
+    },
+    {
+      "id": "MI026",
+      "category": "Mikrobiyoloji",
+      "prompt": "Mycobacterium tuberculosis için doğru morfoloji?",
+      "choice_a": "Spiral",
+      "choice_b": "Pleomorfik",
+      "choice_c": "Kok",
+      "choice_d": "Basil",
+      "correct": "D",
+      "explanation": "Mycobacterium tuberculosis → Basil."
+    },
+    {
+      "id": "MI027",
+      "category": "Mikrobiyoloji",
+      "prompt": "Mycobacterium tuberculosis en çok hangi tabloyla ilişkilidir?",
+      "choice_a": "İYE",
+      "choice_b": "Pnömoni",
+      "choice_c": "Tüberküloz",
+      "choice_d": "Deri apsesi",
+      "correct": "C",
+      "explanation": "Sık ilişki: Tüberküloz."
+    },
+    {
+      "id": "MI028",
+      "category": "Mikrobiyoloji",
+      "prompt": "Nocardia asteroides için uygun boyanma hangisi?",
+      "choice_a": "Gram pozitif",
+      "choice_b": "Gram negatif",
+      "choice_c": "Asit-fast",
+      "choice_d": "Boyanmaz",
+      "correct": "C",
+      "explanation": "Nocardia asteroides → Asit-fast."
+    },
+    {
+      "id": "MI029",
+      "category": "Mikrobiyoloji",
+      "prompt": "Nocardia asteroides için doğru morfoloji?",
+      "choice_a": "Pleomorfik",
+      "choice_b": "Kok",
+      "choice_c": "Basil",
+      "choice_d": "Spiral",
+      "correct": "C",
+      "explanation": "Nocardia asteroides → Basil."
+    },
+    {
+      "id": "MI030",
+      "category": "Mikrobiyoloji",
+      "prompt": "Nocardia asteroides en çok hangi tabloyla ilişkilidir?",
+      "choice_a": "İYE",
+      "choice_b": "Deri apsesi",
+      "choice_c": "Pnömoni",
+      "choice_d": "Nokardioz (immünsüprese)",
+      "correct": "D",
+      "explanation": "Sık ilişki: Nokardioz (immünsüprese)."
+    },
+    {
+      "id": "MI031",
+      "category": "Mikrobiyoloji",
+      "prompt": "Bacteroides fragilis için uygun boyanma hangisi?",
+      "choice_a": "Gram negatif",
+      "choice_b": "Gram pozitif",
+      "choice_c": "Boyanmaz",
+      "choice_d": "Asit-fast",
+      "correct": "A",
+      "explanation": "Bacteroides fragilis → Gram negatif."
+    },
+    {
+      "id": "MI032",
+      "category": "Mikrobiyoloji",
+      "prompt": "Bacteroides fragilis için doğru morfoloji?",
+      "choice_a": "Basil",
+      "choice_b": "Kok",
+      "choice_c": "Pleomorfik",
+      "choice_d": "Spiral",
+      "correct": "A",
+      "explanation": "Bacteroides fragilis → Basil."
+    },
+    {
+      "id": "MI033",
+      "category": "Mikrobiyoloji",
+      "prompt": "Bacteroides fragilis en çok hangi tabloyla ilişkilidir?",
+      "choice_a": "Deri apsesi",
+      "choice_b": "Abdominal apse",
+      "choice_c": "Pnömoni",
+      "choice_d": "İYE",
+      "correct": "B",
+      "explanation": "Sık ilişki: Abdominal apse."
+    },
+    {
+      "id": "MI034",
+      "category": "Mikrobiyoloji",
+      "prompt": "Clostridium difficile için uygun boyanma hangisi?",
+      "choice_a": "Asit-fast",
+      "choice_b": "Gram negatif",
+      "choice_c": "Gram pozitif",
+      "choice_d": "Boyanmaz",
+      "correct": "C",
+      "explanation": "Clostridium difficile → Gram pozitif."
+    },
+    {
+      "id": "MI035",
+      "category": "Mikrobiyoloji",
+      "prompt": "Clostridium difficile için doğru morfoloji?",
+      "choice_a": "Spiral",
+      "choice_b": "Kok",
+      "choice_c": "Basil",
+      "choice_d": "Pleomorfik",
+      "correct": "C",
+      "explanation": "Clostridium difficile → Basil."
+    },
+    {
+      "id": "MI036",
+      "category": "Mikrobiyoloji",
+      "prompt": "Clostridium difficile en çok hangi tabloyla ilişkilidir?",
+      "choice_a": "Deri apsesi",
+      "choice_b": "Antibiyotik ilişkili diyare",
+      "choice_c": "İYE",
+      "choice_d": "Pnömoni",
+      "correct": "B",
+      "explanation": "Sık ilişki: Antibiyotik ilişkili diyare."
+    },
+    {
+      "id": "MI037",
+      "category": "Mikrobiyoloji",
+      "prompt": "Clostridium tetani için uygun boyanma hangisi?",
+      "choice_a": "Gram negatif",
+      "choice_b": "Asit-fast",
+      "choice_c": "Gram pozitif",
+      "choice_d": "Boyanmaz",
+      "correct": "C",
+      "explanation": "Clostridium tetani → Gram pozitif."
+    },
+    {
+      "id": "MI038",
+      "category": "Mikrobiyoloji",
+      "prompt": "Clostridium tetani için doğru morfoloji?",
+      "choice_a": "Kok",
+      "choice_b": "Basil",
+      "choice_c": "Spiral",
+      "choice_d": "Pleomorfik",
+      "correct": "B",
+      "explanation": "Clostridium tetani → Basil."
+    },
+    {
+      "id": "MI039",
+      "category": "Mikrobiyoloji",
+      "prompt": "Clostridium tetani en çok hangi tabloyla ilişkilidir?",
+      "choice_a": "Deri apsesi",
+      "choice_b": "İYE",
+      "choice_c": "Pnömoni",
+      "choice_d": "Tetanoz",
+      "correct": "D",
+      "explanation": "Sık ilişki: Tetanoz."
+    },
+    {
+      "id": "MI040",
+      "category": "Mikrobiyoloji",
+      "prompt": "Clostridium botulinum için uygun boyanma hangisi?",
+      "choice_a": "Boyanmaz",
+      "choice_b": "Gram negatif",
+      "choice_c": "Gram pozitif",
+      "choice_d": "Asit-fast",
+      "correct": "C",
+      "explanation": "Clostridium botulinum → Gram pozitif."
+    },
+    {
+      "id": "MI041",
+      "category": "Mikrobiyoloji",
+      "prompt": "Clostridium botulinum için doğru morfoloji?",
+      "choice_a": "Spiral",
+      "choice_b": "Basil",
+      "choice_c": "Pleomorfik",
+      "choice_d": "Kok",
+      "correct": "B",
+      "explanation": "Clostridium botulinum → Basil."
+    },
+    {
+      "id": "MI042",
+      "category": "Mikrobiyoloji",
+      "prompt": "Clostridium botulinum en çok hangi tabloyla ilişkilidir?",
+      "choice_a": "İYE",
+      "choice_b": "Pnömoni",
+      "choice_c": "Deri apsesi",
+      "choice_d": "Botulizm",
+      "correct": "D",
+      "explanation": "Sık ilişki: Botulizm."
+    },
+    {
+      "id": "MI043",
+      "category": "Mikrobiyoloji",
+      "prompt": "Treponema pallidum için uygun boyanma hangisi?",
+      "choice_a": "Gram negatif",
+      "choice_b": "Boyanmaz",
+      "choice_c": "Gram pozitif",
+      "choice_d": "Asit-fast",
+      "correct": "A",
+      "explanation": "Treponema pallidum → Gram negatif."
+    },
+    {
+      "id": "MI044",
+      "category": "Mikrobiyoloji",
+      "prompt": "Treponema pallidum için doğru morfoloji?",
+      "choice_a": "Basil",
+      "choice_b": "Pleomorfik",
+      "choice_c": "Kok",
+      "choice_d": "Spiral",
+      "correct": "D",
+      "explanation": "Treponema pallidum → Spiral."
+    },
+    {
+      "id": "MI045",
+      "category": "Mikrobiyoloji",
+      "prompt": "Treponema pallidum en çok hangi tabloyla ilişkilidir?",
+      "choice_a": "Sifiliz",
+      "choice_b": "Deri apsesi",
+      "choice_c": "İYE",
+      "choice_d": "Pnömoni",
+      "correct": "A",
+      "explanation": "Sık ilişki: Sifiliz."
+    },
+    {
+      "id": "MI046",
+      "category": "Mikrobiyoloji",
+      "prompt": "Borrelia burgdorferi için uygun boyanma hangisi?",
+      "choice_a": "Asit-fast",
+      "choice_b": "Gram negatif",
+      "choice_c": "Gram pozitif",
+      "choice_d": "Boyanmaz",
+      "correct": "B",
+      "explanation": "Borrelia burgdorferi → Gram negatif."
+    },
+    {
+      "id": "MI047",
+      "category": "Mikrobiyoloji",
+      "prompt": "Borrelia burgdorferi için doğru morfoloji?",
+      "choice_a": "Spiral",
+      "choice_b": "Kok",
+      "choice_c": "Basil",
+      "choice_d": "Pleomorfik",
+      "correct": "A",
+      "explanation": "Borrelia burgdorferi → Spiral."
+    },
+    {
+      "id": "MI048",
+      "category": "Mikrobiyoloji",
+      "prompt": "Borrelia burgdorferi en çok hangi tabloyla ilişkilidir?",
+      "choice_a": "Lyme hastalığı",
+      "choice_b": "Deri apsesi",
+      "choice_c": "Pnömoni",
+      "choice_d": "İYE",
+      "correct": "A",
+      "explanation": "Sık ilişki: Lyme hastalığı."
+    },
+    {
+      "id": "MI049",
+      "category": "Mikrobiyoloji",
+      "prompt": "Leptospira interrogans için uygun boyanma hangisi?",
+      "choice_a": "Asit-fast",
+      "choice_b": "Gram pozitif",
+      "choice_c": "Boyanmaz",
+      "choice_d": "Gram negatif",
+      "correct": "D",
+      "explanation": "Leptospira interrogans → Gram negatif."
+    },
+    {
+      "id": "MI050",
+      "category": "Mikrobiyoloji",
+      "prompt": "Leptospira interrogans için doğru morfoloji?",
+      "choice_a": "Basil",
+      "choice_b": "Spiral",
+      "choice_c": "Pleomorfik",
+      "choice_d": "Kok",
+      "correct": "B",
+      "explanation": "Leptospira interrogans → Spiral."
+    },
+    {
+      "id": "MI051",
+      "category": "Mikrobiyoloji",
+      "prompt": "Leptospira interrogans en çok hangi tabloyla ilişkilidir?",
+      "choice_a": "İYE",
+      "choice_b": "Leptospiroz",
+      "choice_c": "Deri apsesi",
+      "choice_d": "Pnömoni",
+      "correct": "B",
+      "explanation": "Sık ilişki: Leptospiroz."
+    },
+    {
+      "id": "MI052",
+      "category": "Mikrobiyoloji",
+      "prompt": "Staphylococcus aureus için doğru olan hangisi?",
+      "choice_a": "Koagülaz pozitif, Gram pozitif kok",
+      "choice_b": "Koagülaz negatif, Gram negatif kok",
+      "choice_c": "Koagülaz negatif, Gram pozitif basil",
+      "choice_d": "Koagülaz pozitif, Gram negatif basil",
+      "correct": "A",
+      "explanation": "Klasik bilgi."
+    },
+    {
+      "id": "MI053",
+      "category": "Mikrobiyoloji",
+      "prompt": "Staphylococcus aureus için doğru olan hangisi?",
+      "choice_a": "Koagülaz pozitif, Gram pozitif kok",
+      "choice_b": "Koagülaz negatif, Gram negatif kok",
+      "choice_c": "Koagülaz negatif, Gram pozitif basil",
+      "choice_d": "Koagülaz pozitif, Gram negatif basil",
+      "correct": "A",
+      "explanation": "Klasik bilgi."
+    },
+    {
+      "id": "MI054",
+      "category": "Mikrobiyoloji",
+      "prompt": "Staphylococcus aureus için doğru olan hangisi?",
+      "choice_a": "Koagülaz pozitif, Gram pozitif kok",
+      "choice_b": "Koagülaz negatif, Gram negatif kok",
+      "choice_c": "Koagülaz negatif, Gram pozitif basil",
+      "choice_d": "Koagülaz pozitif, Gram negatif basil",
+      "correct": "A",
+      "explanation": "Klasik bilgi."
+    },
+    {
+      "id": "MI055",
+      "category": "Mikrobiyoloji",
+      "prompt": "Staphylococcus aureus için doğru olan hangisi?",
+      "choice_a": "Koagülaz pozitif, Gram pozitif kok",
+      "choice_b": "Koagülaz negatif, Gram negatif kok",
+      "choice_c": "Koagülaz negatif, Gram pozitif basil",
+      "choice_d": "Koagülaz pozitif, Gram negatif basil",
+      "correct": "A",
+      "explanation": "Klasik bilgi."
+    },
+    {
+      "id": "MI056",
+      "category": "Mikrobiyoloji",
+      "prompt": "Staphylococcus aureus için doğru olan hangisi?",
+      "choice_a": "Koagülaz pozitif, Gram pozitif kok",
+      "choice_b": "Koagülaz negatif, Gram negatif kok",
+      "choice_c": "Koagülaz negatif, Gram pozitif basil",
+      "choice_d": "Koagülaz pozitif, Gram negatif basil",
+      "correct": "A",
+      "explanation": "Klasik bilgi."
+    },
+    {
+      "id": "MI057",
+      "category": "Mikrobiyoloji",
+      "prompt": "Staphylococcus aureus için doğru olan hangisi?",
+      "choice_a": "Koagülaz pozitif, Gram pozitif kok",
+      "choice_b": "Koagülaz negatif, Gram negatif kok",
+      "choice_c": "Koagülaz negatif, Gram pozitif basil",
+      "choice_d": "Koagülaz pozitif, Gram negatif basil",
+      "correct": "A",
+      "explanation": "Klasik bilgi."
+    },
+    {
+      "id": "MI058",
+      "category": "Mikrobiyoloji",
+      "prompt": "Staphylococcus aureus için doğru olan hangisi?",
+      "choice_a": "Koagülaz pozitif, Gram pozitif kok",
+      "choice_b": "Koagülaz negatif, Gram negatif kok",
+      "choice_c": "Koagülaz negatif, Gram pozitif basil",
+      "choice_d": "Koagülaz pozitif, Gram negatif basil",
+      "correct": "A",
+      "explanation": "Klasik bilgi."
+    },
+    {
+      "id": "MI059",
+      "category": "Mikrobiyoloji",
+      "prompt": "Staphylococcus aureus için doğru olan hangisi?",
+      "choice_a": "Koagülaz pozitif, Gram pozitif kok",
+      "choice_b": "Koagülaz negatif, Gram negatif kok",
+      "choice_c": "Koagülaz negatif, Gram pozitif basil",
+      "choice_d": "Koagülaz pozitif, Gram negatif basil",
+      "correct": "A",
+      "explanation": "Klasik bilgi."
+    },
+    {
+      "id": "MI060",
+      "category": "Mikrobiyoloji",
+      "prompt": "Staphylococcus aureus için doğru olan hangisi?",
+      "choice_a": "Koagülaz pozitif, Gram pozitif kok",
+      "choice_b": "Koagülaz negatif, Gram negatif kok",
+      "choice_c": "Koagülaz negatif, Gram pozitif basil",
+      "choice_d": "Koagülaz pozitif, Gram negatif basil",
+      "correct": "A",
+      "explanation": "Klasik bilgi."
+    },
+    {
+      "id": "MI061",
+      "category": "Mikrobiyoloji",
+      "prompt": "Staphylococcus aureus için doğru olan hangisi?",
+      "choice_a": "Koagülaz pozitif, Gram pozitif kok",
+      "choice_b": "Koagülaz negatif, Gram negatif kok",
+      "choice_c": "Koagülaz negatif, Gram pozitif basil",
+      "choice_d": "Koagülaz pozitif, Gram negatif basil",
+      "correct": "A",
+      "explanation": "Klasik bilgi."
+    },
+    {
+      "id": "MI062",
+      "category": "Mikrobiyoloji",
+      "prompt": "Staphylococcus aureus için doğru olan hangisi?",
+      "choice_a": "Koagülaz pozitif, Gram pozitif kok",
+      "choice_b": "Koagülaz negatif, Gram negatif kok",
+      "choice_c": "Koagülaz negatif, Gram pozitif basil",
+      "choice_d": "Koagülaz pozitif, Gram negatif basil",
+      "correct": "A",
+      "explanation": "Klasik bilgi."
+    },
+    {
+      "id": "MI063",
+      "category": "Mikrobiyoloji",
+      "prompt": "Staphylococcus aureus için doğru olan hangisi?",
+      "choice_a": "Koagülaz pozitif, Gram pozitif kok",
+      "choice_b": "Koagülaz negatif, Gram negatif kok",
+      "choice_c": "Koagülaz negatif, Gram pozitif basil",
+      "choice_d": "Koagülaz pozitif, Gram negatif basil",
+      "correct": "A",
+      "explanation": "Klasik bilgi."
+    },
+    {
+      "id": "MI064",
+      "category": "Mikrobiyoloji",
+      "prompt": "Staphylococcus aureus için doğru olan hangisi?",
+      "choice_a": "Koagülaz pozitif, Gram pozitif kok",
+      "choice_b": "Koagülaz negatif, Gram negatif kok",
+      "choice_c": "Koagülaz negatif, Gram pozitif basil",
+      "choice_d": "Koagülaz pozitif, Gram negatif basil",
+      "correct": "A",
+      "explanation": "Klasik bilgi."
+    },
+    {
+      "id": "MI065",
+      "category": "Mikrobiyoloji",
+      "prompt": "Staphylococcus aureus için doğru olan hangisi?",
+      "choice_a": "Koagülaz pozitif, Gram pozitif kok",
+      "choice_b": "Koagülaz negatif, Gram negatif kok",
+      "choice_c": "Koagülaz negatif, Gram pozitif basil",
+      "choice_d": "Koagülaz pozitif, Gram negatif basil",
+      "correct": "A",
+      "explanation": "Klasik bilgi."
+    },
+    {
+      "id": "MI066",
+      "category": "Mikrobiyoloji",
+      "prompt": "Staphylococcus aureus için doğru olan hangisi?",
+      "choice_a": "Koagülaz pozitif, Gram pozitif kok",
+      "choice_b": "Koagülaz negatif, Gram negatif kok",
+      "choice_c": "Koagülaz negatif, Gram pozitif basil",
+      "choice_d": "Koagülaz pozitif, Gram negatif basil",
+      "correct": "A",
+      "explanation": "Klasik bilgi."
+    },
+    {
+      "id": "MI067",
+      "category": "Mikrobiyoloji",
+      "prompt": "Staphylococcus aureus için doğru olan hangisi?",
+      "choice_a": "Koagülaz pozitif, Gram pozitif kok",
+      "choice_b": "Koagülaz negatif, Gram negatif kok",
+      "choice_c": "Koagülaz negatif, Gram pozitif basil",
+      "choice_d": "Koagülaz pozitif, Gram negatif basil",
+      "correct": "A",
+      "explanation": "Klasik bilgi."
+    },
+    {
+      "id": "MI068",
+      "category": "Mikrobiyoloji",
+      "prompt": "Staphylococcus aureus için doğru olan hangisi?",
+      "choice_a": "Koagülaz pozitif, Gram pozitif kok",
+      "choice_b": "Koagülaz negatif, Gram negatif kok",
+      "choice_c": "Koagülaz negatif, Gram pozitif basil",
+      "choice_d": "Koagülaz pozitif, Gram negatif basil",
+      "correct": "A",
+      "explanation": "Klasik bilgi."
+    },
+    {
+      "id": "MI069",
+      "category": "Mikrobiyoloji",
+      "prompt": "Staphylococcus aureus için doğru olan hangisi?",
+      "choice_a": "Koagülaz pozitif, Gram pozitif kok",
+      "choice_b": "Koagülaz negatif, Gram negatif kok",
+      "choice_c": "Koagülaz negatif, Gram pozitif basil",
+      "choice_d": "Koagülaz pozitif, Gram negatif basil",
+      "correct": "A",
+      "explanation": "Klasik bilgi."
+    },
+    {
+      "id": "MI070",
+      "category": "Mikrobiyoloji",
+      "prompt": "Staphylococcus aureus için doğru olan hangisi?",
+      "choice_a": "Koagülaz pozitif, Gram pozitif kok",
+      "choice_b": "Koagülaz negatif, Gram negatif kok",
+      "choice_c": "Koagülaz negatif, Gram pozitif basil",
+      "choice_d": "Koagülaz pozitif, Gram negatif basil",
+      "correct": "A",
+      "explanation": "Klasik bilgi."
+    },
+    {
+      "id": "MI071",
+      "category": "Mikrobiyoloji",
+      "prompt": "Staphylococcus aureus için doğru olan hangisi?",
+      "choice_a": "Koagülaz pozitif, Gram pozitif kok",
+      "choice_b": "Koagülaz negatif, Gram negatif kok",
+      "choice_c": "Koagülaz negatif, Gram pozitif basil",
+      "choice_d": "Koagülaz pozitif, Gram negatif basil",
+      "correct": "A",
+      "explanation": "Klasik bilgi."
+    },
+    {
+      "id": "MI072",
+      "category": "Mikrobiyoloji",
+      "prompt": "Staphylococcus aureus için doğru olan hangisi?",
+      "choice_a": "Koagülaz pozitif, Gram pozitif kok",
+      "choice_b": "Koagülaz negatif, Gram negatif kok",
+      "choice_c": "Koagülaz negatif, Gram pozitif basil",
+      "choice_d": "Koagülaz pozitif, Gram negatif basil",
+      "correct": "A",
+      "explanation": "Klasik bilgi."
+    },
+    {
+      "id": "MI073",
+      "category": "Mikrobiyoloji",
+      "prompt": "Staphylococcus aureus için doğru olan hangisi?",
+      "choice_a": "Koagülaz pozitif, Gram pozitif kok",
+      "choice_b": "Koagülaz negatif, Gram negatif kok",
+      "choice_c": "Koagülaz negatif, Gram pozitif basil",
+      "choice_d": "Koagülaz pozitif, Gram negatif basil",
+      "correct": "A",
+      "explanation": "Klasik bilgi."
+    },
+    {
+      "id": "MI074",
+      "category": "Mikrobiyoloji",
+      "prompt": "Staphylococcus aureus için doğru olan hangisi?",
+      "choice_a": "Koagülaz pozitif, Gram pozitif kok",
+      "choice_b": "Koagülaz negatif, Gram negatif kok",
+      "choice_c": "Koagülaz negatif, Gram pozitif basil",
+      "choice_d": "Koagülaz pozitif, Gram negatif basil",
+      "correct": "A",
+      "explanation": "Klasik bilgi."
+    },
+    {
+      "id": "MI075",
+      "category": "Mikrobiyoloji",
+      "prompt": "Staphylococcus aureus için doğru olan hangisi?",
+      "choice_a": "Koagülaz pozitif, Gram pozitif kok",
+      "choice_b": "Koagülaz negatif, Gram negatif kok",
+      "choice_c": "Koagülaz negatif, Gram pozitif basil",
+      "choice_d": "Koagülaz pozitif, Gram negatif basil",
+      "correct": "A",
+      "explanation": "Klasik bilgi."
+    },
+    {
+      "id": "MI076",
+      "category": "Mikrobiyoloji",
+      "prompt": "Staphylococcus aureus için doğru olan hangisi?",
+      "choice_a": "Koagülaz pozitif, Gram pozitif kok",
+      "choice_b": "Koagülaz negatif, Gram negatif kok",
+      "choice_c": "Koagülaz negatif, Gram pozitif basil",
+      "choice_d": "Koagülaz pozitif, Gram negatif basil",
+      "correct": "A",
+      "explanation": "Klasik bilgi."
+    },
+    {
+      "id": "MI077",
+      "category": "Mikrobiyoloji",
+      "prompt": "Staphylococcus aureus için doğru olan hangisi?",
+      "choice_a": "Koagülaz pozitif, Gram pozitif kok",
+      "choice_b": "Koagülaz negatif, Gram negatif kok",
+      "choice_c": "Koagülaz negatif, Gram pozitif basil",
+      "choice_d": "Koagülaz pozitif, Gram negatif basil",
+      "correct": "A",
+      "explanation": "Klasik bilgi."
+    },
+    {
+      "id": "MI078",
+      "category": "Mikrobiyoloji",
+      "prompt": "Staphylococcus aureus için doğru olan hangisi?",
+      "choice_a": "Koagülaz pozitif, Gram pozitif kok",
+      "choice_b": "Koagülaz negatif, Gram negatif kok",
+      "choice_c": "Koagülaz negatif, Gram pozitif basil",
+      "choice_d": "Koagülaz pozitif, Gram negatif basil",
+      "correct": "A",
+      "explanation": "Klasik bilgi."
+    },
+    {
+      "id": "MI079",
+      "category": "Mikrobiyoloji",
+      "prompt": "Staphylococcus aureus için doğru olan hangisi?",
+      "choice_a": "Koagülaz pozitif, Gram pozitif kok",
+      "choice_b": "Koagülaz negatif, Gram negatif kok",
+      "choice_c": "Koagülaz negatif, Gram pozitif basil",
+      "choice_d": "Koagülaz pozitif, Gram negatif basil",
+      "correct": "A",
+      "explanation": "Klasik bilgi."
+    },
+    {
+      "id": "MI080",
+      "category": "Mikrobiyoloji",
+      "prompt": "Staphylococcus aureus için doğru olan hangisi?",
+      "choice_a": "Koagülaz pozitif, Gram pozitif kok",
+      "choice_b": "Koagülaz negatif, Gram negatif kok",
+      "choice_c": "Koagülaz negatif, Gram pozitif basil",
+      "choice_d": "Koagülaz pozitif, Gram negatif basil",
+      "correct": "A",
+      "explanation": "Klasik bilgi."
+    },
+    {
+      "id": "MI081",
+      "category": "Mikrobiyoloji",
+      "prompt": "Staphylococcus aureus için doğru olan hangisi?",
+      "choice_a": "Koagülaz pozitif, Gram pozitif kok",
+      "choice_b": "Koagülaz negatif, Gram negatif kok",
+      "choice_c": "Koagülaz negatif, Gram pozitif basil",
+      "choice_d": "Koagülaz pozitif, Gram negatif basil",
+      "correct": "A",
+      "explanation": "Klasik bilgi."
+    },
+    {
+      "id": "MI082",
+      "category": "Mikrobiyoloji",
+      "prompt": "Staphylococcus aureus için doğru olan hangisi?",
+      "choice_a": "Koagülaz pozitif, Gram pozitif kok",
+      "choice_b": "Koagülaz negatif, Gram negatif kok",
+      "choice_c": "Koagülaz negatif, Gram pozitif basil",
+      "choice_d": "Koagülaz pozitif, Gram negatif basil",
+      "correct": "A",
+      "explanation": "Klasik bilgi."
+    },
+    {
+      "id": "MI083",
+      "category": "Mikrobiyoloji",
+      "prompt": "Staphylococcus aureus için doğru olan hangisi?",
+      "choice_a": "Koagülaz pozitif, Gram pozitif kok",
+      "choice_b": "Koagülaz negatif, Gram negatif kok",
+      "choice_c": "Koagülaz negatif, Gram pozitif basil",
+      "choice_d": "Koagülaz pozitif, Gram negatif basil",
+      "correct": "A",
+      "explanation": "Klasik bilgi."
+    },
+    {
+      "id": "MI084",
+      "category": "Mikrobiyoloji",
+      "prompt": "Staphylococcus aureus için doğru olan hangisi?",
+      "choice_a": "Koagülaz pozitif, Gram pozitif kok",
+      "choice_b": "Koagülaz negatif, Gram negatif kok",
+      "choice_c": "Koagülaz negatif, Gram pozitif basil",
+      "choice_d": "Koagülaz pozitif, Gram negatif basil",
+      "correct": "A",
+      "explanation": "Klasik bilgi."
+    },
+    {
+      "id": "MI085",
+      "category": "Mikrobiyoloji",
+      "prompt": "Staphylococcus aureus için doğru olan hangisi?",
+      "choice_a": "Koagülaz pozitif, Gram pozitif kok",
+      "choice_b": "Koagülaz negatif, Gram negatif kok",
+      "choice_c": "Koagülaz negatif, Gram pozitif basil",
+      "choice_d": "Koagülaz pozitif, Gram negatif basil",
+      "correct": "A",
+      "explanation": "Klasik bilgi."
+    },
+    {
+      "id": "MI086",
+      "category": "Mikrobiyoloji",
+      "prompt": "Staphylococcus aureus için doğru olan hangisi?",
+      "choice_a": "Koagülaz pozitif, Gram pozitif kok",
+      "choice_b": "Koagülaz negatif, Gram negatif kok",
+      "choice_c": "Koagülaz negatif, Gram pozitif basil",
+      "choice_d": "Koagülaz pozitif, Gram negatif basil",
+      "correct": "A",
+      "explanation": "Klasik bilgi."
+    },
+    {
+      "id": "MI087",
+      "category": "Mikrobiyoloji",
+      "prompt": "Staphylococcus aureus için doğru olan hangisi?",
+      "choice_a": "Koagülaz pozitif, Gram pozitif kok",
+      "choice_b": "Koagülaz negatif, Gram negatif kok",
+      "choice_c": "Koagülaz negatif, Gram pozitif basil",
+      "choice_d": "Koagülaz pozitif, Gram negatif basil",
+      "correct": "A",
+      "explanation": "Klasik bilgi."
+    },
+    {
+      "id": "MI088",
+      "category": "Mikrobiyoloji",
+      "prompt": "Staphylococcus aureus için doğru olan hangisi?",
+      "choice_a": "Koagülaz pozitif, Gram pozitif kok",
+      "choice_b": "Koagülaz negatif, Gram negatif kok",
+      "choice_c": "Koagülaz negatif, Gram pozitif basil",
+      "choice_d": "Koagülaz pozitif, Gram negatif basil",
+      "correct": "A",
+      "explanation": "Klasik bilgi."
+    },
+    {
+      "id": "MI089",
+      "category": "Mikrobiyoloji",
+      "prompt": "Staphylococcus aureus için doğru olan hangisi?",
+      "choice_a": "Koagülaz pozitif, Gram pozitif kok",
+      "choice_b": "Koagülaz negatif, Gram negatif kok",
+      "choice_c": "Koagülaz negatif, Gram pozitif basil",
+      "choice_d": "Koagülaz pozitif, Gram negatif basil",
+      "correct": "A",
+      "explanation": "Klasik bilgi."
+    },
+    {
+      "id": "MI090",
+      "category": "Mikrobiyoloji",
+      "prompt": "Staphylococcus aureus için doğru olan hangisi?",
+      "choice_a": "Koagülaz pozitif, Gram pozitif kok",
+      "choice_b": "Koagülaz negatif, Gram negatif kok",
+      "choice_c": "Koagülaz negatif, Gram pozitif basil",
+      "choice_d": "Koagülaz pozitif, Gram negatif basil",
+      "correct": "A",
+      "explanation": "Klasik bilgi."
+    },
+    {
+      "id": "MI091",
+      "category": "Mikrobiyoloji",
+      "prompt": "Staphylococcus aureus için doğru olan hangisi?",
+      "choice_a": "Koagülaz pozitif, Gram pozitif kok",
+      "choice_b": "Koagülaz negatif, Gram negatif kok",
+      "choice_c": "Koagülaz negatif, Gram pozitif basil",
+      "choice_d": "Koagülaz pozitif, Gram negatif basil",
+      "correct": "A",
+      "explanation": "Klasik bilgi."
+    },
+    {
+      "id": "MI092",
+      "category": "Mikrobiyoloji",
+      "prompt": "Staphylococcus aureus için doğru olan hangisi?",
+      "choice_a": "Koagülaz pozitif, Gram pozitif kok",
+      "choice_b": "Koagülaz negatif, Gram negatif kok",
+      "choice_c": "Koagülaz negatif, Gram pozitif basil",
+      "choice_d": "Koagülaz pozitif, Gram negatif basil",
+      "correct": "A",
+      "explanation": "Klasik bilgi."
+    },
+    {
+      "id": "MI093",
+      "category": "Mikrobiyoloji",
+      "prompt": "Staphylococcus aureus için doğru olan hangisi?",
+      "choice_a": "Koagülaz pozitif, Gram pozitif kok",
+      "choice_b": "Koagülaz negatif, Gram negatif kok",
+      "choice_c": "Koagülaz negatif, Gram pozitif basil",
+      "choice_d": "Koagülaz pozitif, Gram negatif basil",
+      "correct": "A",
+      "explanation": "Klasik bilgi."
+    },
+    {
+      "id": "MI094",
+      "category": "Mikrobiyoloji",
+      "prompt": "Staphylococcus aureus için doğru olan hangisi?",
+      "choice_a": "Koagülaz pozitif, Gram pozitif kok",
+      "choice_b": "Koagülaz negatif, Gram negatif kok",
+      "choice_c": "Koagülaz negatif, Gram pozitif basil",
+      "choice_d": "Koagülaz pozitif, Gram negatif basil",
+      "correct": "A",
+      "explanation": "Klasik bilgi."
+    },
+    {
+      "id": "MI095",
+      "category": "Mikrobiyoloji",
+      "prompt": "Staphylococcus aureus için doğru olan hangisi?",
+      "choice_a": "Koagülaz pozitif, Gram pozitif kok",
+      "choice_b": "Koagülaz negatif, Gram negatif kok",
+      "choice_c": "Koagülaz negatif, Gram pozitif basil",
+      "choice_d": "Koagülaz pozitif, Gram negatif basil",
+      "correct": "A",
+      "explanation": "Klasik bilgi."
+    },
+    {
+      "id": "MI096",
+      "category": "Mikrobiyoloji",
+      "prompt": "Staphylococcus aureus için doğru olan hangisi?",
+      "choice_a": "Koagülaz pozitif, Gram pozitif kok",
+      "choice_b": "Koagülaz negatif, Gram negatif kok",
+      "choice_c": "Koagülaz negatif, Gram pozitif basil",
+      "choice_d": "Koagülaz pozitif, Gram negatif basil",
+      "correct": "A",
+      "explanation": "Klasik bilgi."
+    },
+    {
+      "id": "MI097",
+      "category": "Mikrobiyoloji",
+      "prompt": "Staphylococcus aureus için doğru olan hangisi?",
+      "choice_a": "Koagülaz pozitif, Gram pozitif kok",
+      "choice_b": "Koagülaz negatif, Gram negatif kok",
+      "choice_c": "Koagülaz negatif, Gram pozitif basil",
+      "choice_d": "Koagülaz pozitif, Gram negatif basil",
+      "correct": "A",
+      "explanation": "Klasik bilgi."
+    },
+    {
+      "id": "MI098",
+      "category": "Mikrobiyoloji",
+      "prompt": "Staphylococcus aureus için doğru olan hangisi?",
+      "choice_a": "Koagülaz pozitif, Gram pozitif kok",
+      "choice_b": "Koagülaz negatif, Gram negatif kok",
+      "choice_c": "Koagülaz negatif, Gram pozitif basil",
+      "choice_d": "Koagülaz pozitif, Gram negatif basil",
+      "correct": "A",
+      "explanation": "Klasik bilgi."
+    },
+    {
+      "id": "MI099",
+      "category": "Mikrobiyoloji",
+      "prompt": "Staphylococcus aureus için doğru olan hangisi?",
+      "choice_a": "Koagülaz pozitif, Gram pozitif kok",
+      "choice_b": "Koagülaz negatif, Gram negatif kok",
+      "choice_c": "Koagülaz negatif, Gram pozitif basil",
+      "choice_d": "Koagülaz pozitif, Gram negatif basil",
+      "correct": "A",
+      "explanation": "Klasik bilgi."
+    },
+    {
+      "id": "MI100",
+      "category": "Mikrobiyoloji",
+      "prompt": "Staphylococcus aureus için doğru olan hangisi?",
+      "choice_a": "Koagülaz pozitif, Gram pozitif kok",
+      "choice_b": "Koagülaz negatif, Gram negatif kok",
+      "choice_c": "Koagülaz negatif, Gram pozitif basil",
+      "choice_d": "Koagülaz pozitif, Gram negatif basil",
+      "correct": "A",
+      "explanation": "Klasik bilgi."
     }
   ],
   "info": [
     {
       "id": "INFO001",
       "category": "Farmakoloji",
-      "title": "Beta-blokerler",
-      "text": "β1 reseptör antagonizması → kalp hız ve kontraktilite ↓. Astımda non-selektiflerden kaçın."
+      "title": "ACE inhibitörleri",
+      "text": "Kuru öksürük bradikinin artışıyla ilişkilidir."
     },
     {
       "id": "INFO002",
+      "category": "Farmakoloji",
+      "title": "ARB",
+      "text": "Öksürük daha az; hiperkalemi riski olabilir."
+    },
+    {
+      "id": "INFO003",
+      "category": "Farmakoloji",
+      "title": "Beta-bloker",
+      "text": "Kalp hızını/kontraktiliteyi azaltır; astımda non-selektiflerden kaçın."
+    },
+    {
+      "id": "INFO004",
+      "category": "Mikrobiyoloji",
+      "title": "Asit-fast boyama",
+      "text": "Mycolic asit nedeniyle boyayı tutar ve asitle yıkanmaz."
+    },
+    {
+      "id": "INFO005",
       "category": "Anatomi",
       "title": "Karpal tünel",
-      "text": "Median sinir sıkışır; thenar atrofisi, ilk 3.5 parmakta parestezi."
+      "text": "Median sinir; thenar atrofisi, parestezi."
+    },
+    {
+      "id": "INFO006",
+      "category": "Dahiliye",
+      "title": "STEMI ilk adım",
+      "text": "12 derivasyon EKG ve acil değerlendirme."
+    },
+    {
+      "id": "INFO007",
+      "category": "Fizyoloji",
+      "title": "ADH etkisi",
+      "text": "Toplayıcı kanalda su geri emilimini artırır."
+    },
+    {
+      "id": "INFO008",
+      "category": "Biyokimya",
+      "title": "CK-MB",
+      "text": "MI tanısında kullanılan izoenzim."
+    },
+    {
+      "id": "INFO009",
+      "category": "Psikiyatri",
+      "title": "SSRI yan etkileri",
+      "text": "Cinsel disfonksiyon, insomnia."
+    },
+    {
+      "id": "INFO010",
+      "category": "Cerrahi",
+      "title": "Apandisit bulgusu",
+      "text": "Rebound hassasiyet peritoneal irritasyonu gösterir."
+    },
+    {
+      "id": "INFO011",
+      "category": "Farmakoloji",
+      "title": "ACE inhibitörleri",
+      "text": "Kuru öksürük bradikinin artışıyla ilişkilidir."
+    },
+    {
+      "id": "INFO012",
+      "category": "Farmakoloji",
+      "title": "ARB",
+      "text": "Öksürük daha az; hiperkalemi riski olabilir."
+    },
+    {
+      "id": "INFO013",
+      "category": "Farmakoloji",
+      "title": "Beta-bloker",
+      "text": "Kalp hızını/kontraktiliteyi azaltır; astımda non-selektiflerden kaçın."
+    },
+    {
+      "id": "INFO014",
+      "category": "Mikrobiyoloji",
+      "title": "Asit-fast boyama",
+      "text": "Mycolic asit nedeniyle boyayı tutar ve asitle yıkanmaz."
+    },
+    {
+      "id": "INFO015",
+      "category": "Anatomi",
+      "title": "Karpal tünel",
+      "text": "Median sinir; thenar atrofisi, parestezi."
+    },
+    {
+      "id": "INFO016",
+      "category": "Dahiliye",
+      "title": "STEMI ilk adım",
+      "text": "12 derivasyon EKG ve acil değerlendirme."
+    },
+    {
+      "id": "INFO017",
+      "category": "Fizyoloji",
+      "title": "ADH etkisi",
+      "text": "Toplayıcı kanalda su geri emilimini artırır."
+    },
+    {
+      "id": "INFO018",
+      "category": "Biyokimya",
+      "title": "CK-MB",
+      "text": "MI tanısında kullanılan izoenzim."
+    },
+    {
+      "id": "INFO019",
+      "category": "Psikiyatri",
+      "title": "SSRI yan etkileri",
+      "text": "Cinsel disfonksiyon, insomnia."
+    },
+    {
+      "id": "INFO020",
+      "category": "Cerrahi",
+      "title": "Apandisit bulgusu",
+      "text": "Rebound hassasiyet peritoneal irritasyonu gösterir."
+    },
+    {
+      "id": "INFO021",
+      "category": "Farmakoloji",
+      "title": "ACE inhibitörleri",
+      "text": "Kuru öksürük bradikinin artışıyla ilişkilidir."
+    },
+    {
+      "id": "INFO022",
+      "category": "Farmakoloji",
+      "title": "ARB",
+      "text": "Öksürük daha az; hiperkalemi riski olabilir."
+    },
+    {
+      "id": "INFO023",
+      "category": "Farmakoloji",
+      "title": "Beta-bloker",
+      "text": "Kalp hızını/kontraktiliteyi azaltır; astımda non-selektiflerden kaçın."
+    },
+    {
+      "id": "INFO024",
+      "category": "Mikrobiyoloji",
+      "title": "Asit-fast boyama",
+      "text": "Mycolic asit nedeniyle boyayı tutar ve asitle yıkanmaz."
+    },
+    {
+      "id": "INFO025",
+      "category": "Anatomi",
+      "title": "Karpal tünel",
+      "text": "Median sinir; thenar atrofisi, parestezi."
+    },
+    {
+      "id": "INFO026",
+      "category": "Dahiliye",
+      "title": "STEMI ilk adım",
+      "text": "12 derivasyon EKG ve acil değerlendirme."
+    },
+    {
+      "id": "INFO027",
+      "category": "Fizyoloji",
+      "title": "ADH etkisi",
+      "text": "Toplayıcı kanalda su geri emilimini artırır."
+    },
+    {
+      "id": "INFO028",
+      "category": "Biyokimya",
+      "title": "CK-MB",
+      "text": "MI tanısında kullanılan izoenzim."
+    },
+    {
+      "id": "INFO029",
+      "category": "Psikiyatri",
+      "title": "SSRI yan etkileri",
+      "text": "Cinsel disfonksiyon, insomnia."
+    },
+    {
+      "id": "INFO030",
+      "category": "Cerrahi",
+      "title": "Apandisit bulgusu",
+      "text": "Rebound hassasiyet peritoneal irritasyonu gösterir."
+    },
+    {
+      "id": "INFO031",
+      "category": "Farmakoloji",
+      "title": "ACE inhibitörleri",
+      "text": "Kuru öksürük bradikinin artışıyla ilişkilidir."
+    },
+    {
+      "id": "INFO032",
+      "category": "Farmakoloji",
+      "title": "ARB",
+      "text": "Öksürük daha az; hiperkalemi riski olabilir."
+    },
+    {
+      "id": "INFO033",
+      "category": "Farmakoloji",
+      "title": "Beta-bloker",
+      "text": "Kalp hızını/kontraktiliteyi azaltır; astımda non-selektiflerden kaçın."
+    },
+    {
+      "id": "INFO034",
+      "category": "Mikrobiyoloji",
+      "title": "Asit-fast boyama",
+      "text": "Mycolic asit nedeniyle boyayı tutar ve asitle yıkanmaz."
+    },
+    {
+      "id": "INFO035",
+      "category": "Anatomi",
+      "title": "Karpal tünel",
+      "text": "Median sinir; thenar atrofisi, parestezi."
+    },
+    {
+      "id": "INFO036",
+      "category": "Dahiliye",
+      "title": "STEMI ilk adım",
+      "text": "12 derivasyon EKG ve acil değerlendirme."
+    },
+    {
+      "id": "INFO037",
+      "category": "Fizyoloji",
+      "title": "ADH etkisi",
+      "text": "Toplayıcı kanalda su geri emilimini artırır."
+    },
+    {
+      "id": "INFO038",
+      "category": "Biyokimya",
+      "title": "CK-MB",
+      "text": "MI tanısında kullanılan izoenzim."
+    },
+    {
+      "id": "INFO039",
+      "category": "Psikiyatri",
+      "title": "SSRI yan etkileri",
+      "text": "Cinsel disfonksiyon, insomnia."
+    },
+    {
+      "id": "INFO040",
+      "category": "Cerrahi",
+      "title": "Apandisit bulgusu",
+      "text": "Rebound hassasiyet peritoneal irritasyonu gösterir."
+    },
+    {
+      "id": "INFO041",
+      "category": "Farmakoloji",
+      "title": "ACE inhibitörleri",
+      "text": "Kuru öksürük bradikinin artışıyla ilişkilidir."
+    },
+    {
+      "id": "INFO042",
+      "category": "Farmakoloji",
+      "title": "ARB",
+      "text": "Öksürük daha az; hiperkalemi riski olabilir."
+    },
+    {
+      "id": "INFO043",
+      "category": "Farmakoloji",
+      "title": "Beta-bloker",
+      "text": "Kalp hızını/kontraktiliteyi azaltır; astımda non-selektiflerden kaçın."
+    },
+    {
+      "id": "INFO044",
+      "category": "Mikrobiyoloji",
+      "title": "Asit-fast boyama",
+      "text": "Mycolic asit nedeniyle boyayı tutar ve asitle yıkanmaz."
+    },
+    {
+      "id": "INFO045",
+      "category": "Anatomi",
+      "title": "Karpal tünel",
+      "text": "Median sinir; thenar atrofisi, parestezi."
+    },
+    {
+      "id": "INFO046",
+      "category": "Dahiliye",
+      "title": "STEMI ilk adım",
+      "text": "12 derivasyon EKG ve acil değerlendirme."
+    },
+    {
+      "id": "INFO047",
+      "category": "Fizyoloji",
+      "title": "ADH etkisi",
+      "text": "Toplayıcı kanalda su geri emilimini artırır."
+    },
+    {
+      "id": "INFO048",
+      "category": "Biyokimya",
+      "title": "CK-MB",
+      "text": "MI tanısında kullanılan izoenzim."
+    },
+    {
+      "id": "INFO049",
+      "category": "Psikiyatri",
+      "title": "SSRI yan etkileri",
+      "text": "Cinsel disfonksiyon, insomnia."
+    },
+    {
+      "id": "INFO050",
+      "category": "Cerrahi",
+      "title": "Apandisit bulgusu",
+      "text": "Rebound hassasiyet peritoneal irritasyonu gösterir."
+    },
+    {
+      "id": "INFO051",
+      "category": "Farmakoloji",
+      "title": "ACE inhibitörleri",
+      "text": "Kuru öksürük bradikinin artışıyla ilişkilidir."
+    },
+    {
+      "id": "INFO052",
+      "category": "Farmakoloji",
+      "title": "ARB",
+      "text": "Öksürük daha az; hiperkalemi riski olabilir."
+    },
+    {
+      "id": "INFO053",
+      "category": "Farmakoloji",
+      "title": "Beta-bloker",
+      "text": "Kalp hızını/kontraktiliteyi azaltır; astımda non-selektiflerden kaçın."
+    },
+    {
+      "id": "INFO054",
+      "category": "Mikrobiyoloji",
+      "title": "Asit-fast boyama",
+      "text": "Mycolic asit nedeniyle boyayı tutar ve asitle yıkanmaz."
+    },
+    {
+      "id": "INFO055",
+      "category": "Anatomi",
+      "title": "Karpal tünel",
+      "text": "Median sinir; thenar atrofisi, parestezi."
+    },
+    {
+      "id": "INFO056",
+      "category": "Dahiliye",
+      "title": "STEMI ilk adım",
+      "text": "12 derivasyon EKG ve acil değerlendirme."
+    },
+    {
+      "id": "INFO057",
+      "category": "Fizyoloji",
+      "title": "ADH etkisi",
+      "text": "Toplayıcı kanalda su geri emilimini artırır."
+    },
+    {
+      "id": "INFO058",
+      "category": "Biyokimya",
+      "title": "CK-MB",
+      "text": "MI tanısında kullanılan izoenzim."
+    },
+    {
+      "id": "INFO059",
+      "category": "Psikiyatri",
+      "title": "SSRI yan etkileri",
+      "text": "Cinsel disfonksiyon, insomnia."
+    },
+    {
+      "id": "INFO060",
+      "category": "Cerrahi",
+      "title": "Apandisit bulgusu",
+      "text": "Rebound hassasiyet peritoneal irritasyonu gösterir."
+    },
+    {
+      "id": "INFO061",
+      "category": "Farmakoloji",
+      "title": "ACE inhibitörleri",
+      "text": "Kuru öksürük bradikinin artışıyla ilişkilidir."
+    },
+    {
+      "id": "INFO062",
+      "category": "Farmakoloji",
+      "title": "ARB",
+      "text": "Öksürük daha az; hiperkalemi riski olabilir."
+    },
+    {
+      "id": "INFO063",
+      "category": "Farmakoloji",
+      "title": "Beta-bloker",
+      "text": "Kalp hızını/kontraktiliteyi azaltır; astımda non-selektiflerden kaçın."
+    },
+    {
+      "id": "INFO064",
+      "category": "Mikrobiyoloji",
+      "title": "Asit-fast boyama",
+      "text": "Mycolic asit nedeniyle boyayı tutar ve asitle yıkanmaz."
+    },
+    {
+      "id": "INFO065",
+      "category": "Anatomi",
+      "title": "Karpal tünel",
+      "text": "Median sinir; thenar atrofisi, parestezi."
+    },
+    {
+      "id": "INFO066",
+      "category": "Dahiliye",
+      "title": "STEMI ilk adım",
+      "text": "12 derivasyon EKG ve acil değerlendirme."
+    },
+    {
+      "id": "INFO067",
+      "category": "Fizyoloji",
+      "title": "ADH etkisi",
+      "text": "Toplayıcı kanalda su geri emilimini artırır."
+    },
+    {
+      "id": "INFO068",
+      "category": "Biyokimya",
+      "title": "CK-MB",
+      "text": "MI tanısında kullanılan izoenzim."
+    },
+    {
+      "id": "INFO069",
+      "category": "Psikiyatri",
+      "title": "SSRI yan etkileri",
+      "text": "Cinsel disfonksiyon, insomnia."
+    },
+    {
+      "id": "INFO070",
+      "category": "Cerrahi",
+      "title": "Apandisit bulgusu",
+      "text": "Rebound hassasiyet peritoneal irritasyonu gösterir."
+    },
+    {
+      "id": "INFO071",
+      "category": "Farmakoloji",
+      "title": "ACE inhibitörleri",
+      "text": "Kuru öksürük bradikinin artışıyla ilişkilidir."
+    },
+    {
+      "id": "INFO072",
+      "category": "Farmakoloji",
+      "title": "ARB",
+      "text": "Öksürük daha az; hiperkalemi riski olabilir."
+    },
+    {
+      "id": "INFO073",
+      "category": "Farmakoloji",
+      "title": "Beta-bloker",
+      "text": "Kalp hızını/kontraktiliteyi azaltır; astımda non-selektiflerden kaçın."
+    },
+    {
+      "id": "INFO074",
+      "category": "Mikrobiyoloji",
+      "title": "Asit-fast boyama",
+      "text": "Mycolic asit nedeniyle boyayı tutar ve asitle yıkanmaz."
+    },
+    {
+      "id": "INFO075",
+      "category": "Anatomi",
+      "title": "Karpal tünel",
+      "text": "Median sinir; thenar atrofisi, parestezi."
+    },
+    {
+      "id": "INFO076",
+      "category": "Dahiliye",
+      "title": "STEMI ilk adım",
+      "text": "12 derivasyon EKG ve acil değerlendirme."
+    },
+    {
+      "id": "INFO077",
+      "category": "Fizyoloji",
+      "title": "ADH etkisi",
+      "text": "Toplayıcı kanalda su geri emilimini artırır."
+    },
+    {
+      "id": "INFO078",
+      "category": "Biyokimya",
+      "title": "CK-MB",
+      "text": "MI tanısında kullanılan izoenzim."
+    },
+    {
+      "id": "INFO079",
+      "category": "Psikiyatri",
+      "title": "SSRI yan etkileri",
+      "text": "Cinsel disfonksiyon, insomnia."
+    },
+    {
+      "id": "INFO080",
+      "category": "Cerrahi",
+      "title": "Apandisit bulgusu",
+      "text": "Rebound hassasiyet peritoneal irritasyonu gösterir."
+    },
+    {
+      "id": "INFO081",
+      "category": "Farmakoloji",
+      "title": "ACE inhibitörleri",
+      "text": "Kuru öksürük bradikinin artışıyla ilişkilidir."
+    },
+    {
+      "id": "INFO082",
+      "category": "Farmakoloji",
+      "title": "ARB",
+      "text": "Öksürük daha az; hiperkalemi riski olabilir."
+    },
+    {
+      "id": "INFO083",
+      "category": "Farmakoloji",
+      "title": "Beta-bloker",
+      "text": "Kalp hızını/kontraktiliteyi azaltır; astımda non-selektiflerden kaçın."
+    },
+    {
+      "id": "INFO084",
+      "category": "Mikrobiyoloji",
+      "title": "Asit-fast boyama",
+      "text": "Mycolic asit nedeniyle boyayı tutar ve asitle yıkanmaz."
+    },
+    {
+      "id": "INFO085",
+      "category": "Anatomi",
+      "title": "Karpal tünel",
+      "text": "Median sinir; thenar atrofisi, parestezi."
+    },
+    {
+      "id": "INFO086",
+      "category": "Dahiliye",
+      "title": "STEMI ilk adım",
+      "text": "12 derivasyon EKG ve acil değerlendirme."
+    },
+    {
+      "id": "INFO087",
+      "category": "Fizyoloji",
+      "title": "ADH etkisi",
+      "text": "Toplayıcı kanalda su geri emilimini artırır."
+    },
+    {
+      "id": "INFO088",
+      "category": "Biyokimya",
+      "title": "CK-MB",
+      "text": "MI tanısında kullanılan izoenzim."
+    },
+    {
+      "id": "INFO089",
+      "category": "Psikiyatri",
+      "title": "SSRI yan etkileri",
+      "text": "Cinsel disfonksiyon, insomnia."
+    },
+    {
+      "id": "INFO090",
+      "category": "Cerrahi",
+      "title": "Apandisit bulgusu",
+      "text": "Rebound hassasiyet peritoneal irritasyonu gösterir."
+    },
+    {
+      "id": "INFO091",
+      "category": "Farmakoloji",
+      "title": "ACE inhibitörleri",
+      "text": "Kuru öksürük bradikinin artışıyla ilişkilidir."
+    },
+    {
+      "id": "INFO092",
+      "category": "Farmakoloji",
+      "title": "ARB",
+      "text": "Öksürük daha az; hiperkalemi riski olabilir."
+    },
+    {
+      "id": "INFO093",
+      "category": "Farmakoloji",
+      "title": "Beta-bloker",
+      "text": "Kalp hızını/kontraktiliteyi azaltır; astımda non-selektiflerden kaçın."
+    },
+    {
+      "id": "INFO094",
+      "category": "Mikrobiyoloji",
+      "title": "Asit-fast boyama",
+      "text": "Mycolic asit nedeniyle boyayı tutar ve asitle yıkanmaz."
+    },
+    {
+      "id": "INFO095",
+      "category": "Anatomi",
+      "title": "Karpal tünel",
+      "text": "Median sinir; thenar atrofisi, parestezi."
+    },
+    {
+      "id": "INFO096",
+      "category": "Dahiliye",
+      "title": "STEMI ilk adım",
+      "text": "12 derivasyon EKG ve acil değerlendirme."
+    },
+    {
+      "id": "INFO097",
+      "category": "Fizyoloji",
+      "title": "ADH etkisi",
+      "text": "Toplayıcı kanalda su geri emilimini artırır."
+    },
+    {
+      "id": "INFO098",
+      "category": "Biyokimya",
+      "title": "CK-MB",
+      "text": "MI tanısında kullanılan izoenzim."
+    },
+    {
+      "id": "INFO099",
+      "category": "Psikiyatri",
+      "title": "SSRI yan etkileri",
+      "text": "Cinsel disfonksiyon, insomnia."
+    },
+    {
+      "id": "INFO100",
+      "category": "Cerrahi",
+      "title": "Apandisit bulgusu",
+      "text": "Rebound hassasiyet peritoneal irritasyonu gösterir."
+    },
+    {
+      "id": "INFO101",
+      "category": "Farmakoloji",
+      "title": "ACE inhibitörleri",
+      "text": "Kuru öksürük bradikinin artışıyla ilişkilidir."
+    },
+    {
+      "id": "INFO102",
+      "category": "Farmakoloji",
+      "title": "ARB",
+      "text": "Öksürük daha az; hiperkalemi riski olabilir."
+    },
+    {
+      "id": "INFO103",
+      "category": "Farmakoloji",
+      "title": "Beta-bloker",
+      "text": "Kalp hızını/kontraktiliteyi azaltır; astımda non-selektiflerden kaçın."
+    },
+    {
+      "id": "INFO104",
+      "category": "Mikrobiyoloji",
+      "title": "Asit-fast boyama",
+      "text": "Mycolic asit nedeniyle boyayı tutar ve asitle yıkanmaz."
+    },
+    {
+      "id": "INFO105",
+      "category": "Anatomi",
+      "title": "Karpal tünel",
+      "text": "Median sinir; thenar atrofisi, parestezi."
+    },
+    {
+      "id": "INFO106",
+      "category": "Dahiliye",
+      "title": "STEMI ilk adım",
+      "text": "12 derivasyon EKG ve acil değerlendirme."
+    },
+    {
+      "id": "INFO107",
+      "category": "Fizyoloji",
+      "title": "ADH etkisi",
+      "text": "Toplayıcı kanalda su geri emilimini artırır."
+    },
+    {
+      "id": "INFO108",
+      "category": "Biyokimya",
+      "title": "CK-MB",
+      "text": "MI tanısında kullanılan izoenzim."
+    },
+    {
+      "id": "INFO109",
+      "category": "Psikiyatri",
+      "title": "SSRI yan etkileri",
+      "text": "Cinsel disfonksiyon, insomnia."
+    },
+    {
+      "id": "INFO110",
+      "category": "Cerrahi",
+      "title": "Apandisit bulgusu",
+      "text": "Rebound hassasiyet peritoneal irritasyonu gösterir."
+    },
+    {
+      "id": "INFO111",
+      "category": "Farmakoloji",
+      "title": "ACE inhibitörleri",
+      "text": "Kuru öksürük bradikinin artışıyla ilişkilidir."
+    },
+    {
+      "id": "INFO112",
+      "category": "Farmakoloji",
+      "title": "ARB",
+      "text": "Öksürük daha az; hiperkalemi riski olabilir."
+    },
+    {
+      "id": "INFO113",
+      "category": "Farmakoloji",
+      "title": "Beta-bloker",
+      "text": "Kalp hızını/kontraktiliteyi azaltır; astımda non-selektiflerden kaçın."
+    },
+    {
+      "id": "INFO114",
+      "category": "Mikrobiyoloji",
+      "title": "Asit-fast boyama",
+      "text": "Mycolic asit nedeniyle boyayı tutar ve asitle yıkanmaz."
+    },
+    {
+      "id": "INFO115",
+      "category": "Anatomi",
+      "title": "Karpal tünel",
+      "text": "Median sinir; thenar atrofisi, parestezi."
+    },
+    {
+      "id": "INFO116",
+      "category": "Dahiliye",
+      "title": "STEMI ilk adım",
+      "text": "12 derivasyon EKG ve acil değerlendirme."
+    },
+    {
+      "id": "INFO117",
+      "category": "Fizyoloji",
+      "title": "ADH etkisi",
+      "text": "Toplayıcı kanalda su geri emilimini artırır."
+    },
+    {
+      "id": "INFO118",
+      "category": "Biyokimya",
+      "title": "CK-MB",
+      "text": "MI tanısında kullanılan izoenzim."
+    },
+    {
+      "id": "INFO119",
+      "category": "Psikiyatri",
+      "title": "SSRI yan etkileri",
+      "text": "Cinsel disfonksiyon, insomnia."
+    },
+    {
+      "id": "INFO120",
+      "category": "Cerrahi",
+      "title": "Apandisit bulgusu",
+      "text": "Rebound hassasiyet peritoneal irritasyonu gösterir."
     }
   ]
 }
