@@ -1,0 +1,51 @@
+{
+  "questions": [
+    {
+      "id": "AN001",
+      "category": "Anatomi",
+      "prompt": "N. radialis lezyonunda beklenen bulgu nedir?",
+      "choice_a": "Ape hand",
+      "choice_b": "Claw hand",
+      "choice_c": "Wrist drop",
+      "choice_d": "Foot drop",
+      "correct": "C",
+      "explanation": "Ekstansör zaafına bağlı bilek düşmesi (wrist drop)."
+    },
+    {
+      "id": "FA001",
+      "category": "Farmakoloji",
+      "prompt": "ACE inhibitörlerinin tipik yan etkisi hangisidir?",
+      "choice_a": "Hipokalemi",
+      "choice_b": "Kuru öksürük",
+      "choice_c": "Bradikardi",
+      "choice_d": "Kabızlık",
+      "correct": "B",
+      "explanation": "Bradikinin artışı → kuru öksürük."
+    },
+    {
+      "id": "MI001",
+      "category": "Mikrobiyoloji",
+      "prompt": "S. aureus için doğru kombinasyon hangisi?",
+      "choice_a": "Koagülaz -, Gram + kok",
+      "choice_b": "Koagülaz +, Gram + kok",
+      "choice_c": "Koagülaz +, Gram - basil",
+      "choice_d": "Koagülaz -, Gram - kok",
+      "correct": "B",
+      "explanation": "Koagülaz pozitif ve Gram pozitif koktur."
+    }
+  ],
+  "info": [
+    {
+      "id": "INFO001",
+      "category": "Farmakoloji",
+      "title": "Beta-blokerler",
+      "text": "β1 reseptör antagonizması → kalp hız ve kontraktilite ↓. Astımda non-selektiflerden kaçın."
+    },
+    {
+      "id": "INFO002",
+      "category": "Anatomi",
+      "title": "Karpal tünel",
+      "text": "Median sinir sıkışır; thenar atrofisi, ilk 3.5 parmakta parestezi."
+    }
+  ]
+}
